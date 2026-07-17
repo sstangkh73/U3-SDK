@@ -180,7 +180,7 @@ duration: 0.9044036 seconds
 | HLOD/occlusion | ยังไม่ผ่าน | contract/audit เท่านั้น |
 | target-hardware performance | ยังไม่ผ่าน | deterministic estimate เท่านั้น |
 | full regression | ผ่าน | 1,358/1,358 |
-| code/report บน GitHub | รอ commit | จะอัปเดต hash หลัง publish |
+| code/report บน GitHub | ผ่าน | implementation/report commit `40f2798`, Draft PR #1 |
 
 ## 10. ข้อจำกัด
 
