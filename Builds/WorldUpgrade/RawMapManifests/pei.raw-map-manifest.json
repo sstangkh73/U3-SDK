@@ -1,0 +1,619 @@
+{
+  "SchemaVersion": 1,
+  "ZoneId": "pei",
+  "DisplayName": "PEI",
+  "SourceType": "Official",
+  "PublishedFileId": "",
+  "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/PEI",
+  "GeneratedUtc": "2026-07-17T18:40:44.3960865Z",
+  "InventoryFingerprintSha256": "6c35a215c645ff405fc2f813159433e151f89f96fb1c7603a4509ddcf02fe249",
+  "CopiesSourceContent": false,
+  "ImportsLegacyGameplayRules": false,
+  "Level": {
+    "FormatVersion": 1,
+    "SizeValue": 2,
+    "SizeName": "Medium",
+    "SizeInWorldUnits": 2048,
+    "TypeValue": 0,
+    "TypeName": "Survival"
+  },
+  "Config": {
+    "RelativePath": "Config.json",
+    "Version": "3.26.1.0",
+    "AssetGuid": "d258342682aa44f89b08de0b47797c4e",
+    "LegacyGameplayRulesAreReferenceOnly": true,
+    "ConfigParseError": null,
+    "RequiredWorkshopFileIds": [],
+    "CommonGameplayOverrideKeys": [],
+    "EasyGameplayOverrideKeys": [],
+    "NormalGameplayOverrideKeys": [],
+    "HardGameplayOverrideKeys": [],
+    "TrainAssociationCount": 0,
+    "SpawnLoadoutCount": 0
+  },
+  "Files": [
+    {
+      "RelativePath": "Chart.png",
+      "SizeInBytes": 249945,
+      "Category": "MapImage"
+    },
+    {
+      "RelativePath": "Charts.unity3d",
+      "SizeInBytes": 5040,
+      "Category": "AssetBundle"
+    },
+    {
+      "RelativePath": "Config.json",
+      "SizeInBytes": 447,
+      "Category": "Metadata"
+    },
+    {
+      "RelativePath": "Editor/Camera.dat",
+      "SizeInBytes": 21,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Height.dat",
+      "SizeInBytes": 14,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Materials.dat",
+      "SizeInBytes": 6,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Objects.dat",
+      "SizeInBytes": 9,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Room.dat",
+      "SizeInBytes": 14,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Spawns.dat",
+      "SizeInBytes": 6,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "English.dat",
+      "SizeInBytes": 204,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Environment/Ambience.unity3d",
+      "SizeInBytes": 2339728,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Bounds.dat",
+      "SizeInBytes": 458,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Flags.dat",
+      "SizeInBytes": 382,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Flags_Data.dat",
+      "SizeInBytes": 162,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Lighting.dat",
+      "SizeInBytes": 268,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Navigation_0.dat",
+      "SizeInBytes": 77971,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_1.dat",
+      "SizeInBytes": 16273,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_10.dat",
+      "SizeInBytes": 124923,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_11.dat",
+      "SizeInBytes": 22561,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_12.dat",
+      "SizeInBytes": 68213,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_13.dat",
+      "SizeInBytes": 141627,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_14.dat",
+      "SizeInBytes": 26347,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_15.dat",
+      "SizeInBytes": 34857,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_16.dat",
+      "SizeInBytes": 28261,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_17.dat",
+      "SizeInBytes": 18291,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_18.dat",
+      "SizeInBytes": 24327,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_2.dat",
+      "SizeInBytes": 72641,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_3.dat",
+      "SizeInBytes": 5925,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_4.dat",
+      "SizeInBytes": 31449,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_5.dat",
+      "SizeInBytes": 29493,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_6.dat",
+      "SizeInBytes": 29433,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_7.dat",
+      "SizeInBytes": 101165,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_8.dat",
+      "SizeInBytes": 30879,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_9.dat",
+      "SizeInBytes": 42345,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Nodes.dat",
+      "SizeInBytes": 812,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Paths.dat",
+      "SizeInBytes": 4625,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Roads.dat",
+      "SizeInBytes": 172,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Roads.unity3d",
+      "SizeInBytes": 1857196,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Foliage.blob",
+      "SizeInBytes": 43521858,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Icon.png",
+      "SizeInBytes": 40124,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_-1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_0.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Level.dat",
+      "SizeInBytes": 10,
+      "Category": "Metadata"
+    },
+    {
+      "RelativePath": "Level.hierarchy",
+      "SizeInBytes": 1303123,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Level.png",
+      "SizeInBytes": 7969138,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Level/Buildables.dat",
+      "SizeInBytes": 8193,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Level/Objects.dat",
+      "SizeInBytes": 371833,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Level/Visibility.dat",
+      "SizeInBytes": 10,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Map.png",
+      "SizeInBytes": 5167101,
+      "Category": "MapImage"
+    },
+    {
+      "RelativePath": "Preview.png",
+      "SizeInBytes": 81039,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Spawns/Animals.dat",
+      "SizeInBytes": 27121,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Fauna.dat",
+      "SizeInBytes": 814,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Items.dat",
+      "SizeInBytes": 3354,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Jars.dat",
+      "SizeInBytes": 40303,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Players.dat",
+      "SizeInBytes": 310,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Vehicles.dat",
+      "SizeInBytes": 1894,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Zombies.dat",
+      "SizeInBytes": 1139,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2HQ_0.png",
+      "SizeInBytes": 10415,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2HQ_1.png",
+      "SizeInBytes": 6483,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2_0.png",
+      "SizeInBytes": 3234,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2_1.png",
+      "SizeInBytes": 2908,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/AlphamapHQ_0.png",
+      "SizeInBytes": 115953,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/AlphamapHQ_1.png",
+      "SizeInBytes": 47086,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap_0.png",
+      "SizeInBytes": 18726,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap_1.png",
+      "SizeInBytes": 14003,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Details.dat",
+      "SizeInBytes": 142,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Details.unity3d",
+      "SizeInBytes": 83640,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Heightmap.png",
+      "SizeInBytes": 143638,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Heightmap2.png",
+      "SizeInBytes": 27129,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Heights.dat",
+      "SizeInBytes": 2,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Materials.dat",
+      "SizeInBytes": 250,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Materials.unity3d",
+      "SizeInBytes": 180512,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Resources.dat",
+      "SizeInBytes": 836,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Trees.dat",
+      "SizeInBytes": 93175,
+      "Category": "Terrain"
+    }
+  ],
+  "Categories": [
+    {
+      "Category": "Metadata",
+      "FileCount": 2,
+      "SizeInBytes": 457
+    },
+    {
+      "Category": "Landscape",
+      "FileCount": 34,
+      "SizeInBytes": 10518562
+    },
+    {
+      "Category": "Terrain",
+      "FileCount": 17,
+      "SizeInBytes": 748132
+    },
+    {
+      "Category": "WorldObjects",
+      "FileCount": 5,
+      "SizeInBytes": 45205017
+    },
+    {
+      "Category": "Environment",
+      "FileCount": 9,
+      "SizeInBytes": 4203803
+    },
+    {
+      "Category": "Navigation",
+      "FileCount": 19,
+      "SizeInBytes": 926981
+    },
+    {
+      "Category": "Spawns",
+      "FileCount": 7,
+      "SizeInBytes": 74935
+    },
+    {
+      "Category": "MapImage",
+      "FileCount": 2,
+      "SizeInBytes": 5417046
+    },
+    {
+      "Category": "AssetBundle",
+      "FileCount": 1,
+      "SizeInBytes": 5040
+    },
+    {
+      "Category": "Other",
+      "FileCount": 10,
+      "SizeInBytes": 8090575
+    }
+  ],
+  "Dependencies": []
+}

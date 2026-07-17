@@ -6566,6 +6566,10 @@ namespace SDG.Unturned
 
 			_isInitialized = true;
 			DontDestroyOnLoad(gameObject);
+			if (!Dedicator.IsDedicatedServer)
+			{
+				WorldTravelManager.Install(gameObject);
+			}
 
 			steam = this;
 			Level.onLevelLoaded += onLevelLoaded;
