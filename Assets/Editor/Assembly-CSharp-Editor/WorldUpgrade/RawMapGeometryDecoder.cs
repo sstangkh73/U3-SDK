@@ -29,10 +29,12 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 
 		internal static void DecodeAll(RawMapDecodeContext context)
 		{
+			// Level.hierarchy is the authoritative list of active landscape tiles. Decode it
+			// before scanning loose source files so stale/unreferenced files are quarantined.
+			context.Capture("Level.hierarchy", () => DecodeHierarchy(context));
 			context.Capture("Landscape", () => DecodeLandscape(context));
 			context.Capture("Level/Objects.dat", () => DecodeObjects(context));
 			context.Capture("Environment/Roads.dat", () => DecodeRoads(context));
-			context.Capture("Level.hierarchy", () => DecodeHierarchy(context));
 		}
 
 		internal static void DecodeLandscape(RawMapDecodeContext context)
@@ -47,13 +49,16 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 			}
 
 			Dictionary<string, RawMapLandscapeTileSummaryData> tiles = new Dictionary<string, RawMapLandscapeTileSummaryData>(StringComparer.Ordinal);
+			foreach (RawMapLandscapeCoordData coord in summary.HierarchyTiles)
+				GetTile(tiles, coord.X, coord.Y).IsActiveInHierarchy = true;
 			DecodeHeightmaps(context, summary, tiles);
 			DecodeSplatmaps(context, summary, tiles);
 			DecodeHoles(context, summary, tiles);
 
 			foreach (RawMapLandscapeTileSummaryData tile in tiles.Values.OrderBy(value => value.X).ThenBy(value => value.Y))
 			{
-				if (!tile.HasHeightmap && (tile.HasSplatmap || tile.HasHoles))
+				bool shouldImport = !summary.HasHierarchyTileManifest || tile.IsActiveInHierarchy;
+				if (!tile.HasHeightmap && (tile.HasSplatmap || tile.HasHoles || tile.IsActiveInHierarchy))
 				{
 					summary.MissingHeightmapCount++;
 					context.AddWarning("MissingLandscapeHeightmap", "Landscape/Heightmaps", -1, "Tile " + tile.X + "," + tile.Y + " has splatmap or holes data but no matching source heightmap.");
@@ -63,7 +68,15 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					summary.MissingSplatmapCount++;
 					context.AddWarning("MissingLandscapeSplatmap", "Landscape/Splatmaps", -1, "Heightmap tile " + tile.X + "," + tile.Y + " has no matching source splatmap.");
 				}
+				if (!shouldImport)
+				{
+					summary.SourceOnlyTileCount++;
+					context.AddWarning("UnreferencedLandscapeSourceTile", "Landscape", -1,
+						"Tile " + tile.X + "," + tile.Y + " has source files but is not referenced by Level.hierarchy and will not be imported.");
+				}
 				summary.Tiles.Add(tile);
+				if (!shouldImport)
+					continue;
 				context.EntitySeeds.Add(new WorldSchemaEntitySeed
 				{
 					Kind = "LandscapeTile",
@@ -456,6 +469,33 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					}
 					typeCounts.TryGetValue(typeName, out int count);
 					typeCounts[typeName] = count + 1;
+
+					if (!context.Summary.Landscape.HasHierarchyTileManifest &&
+						typeName.StartsWith("SDG.Framework.Landscapes.Landscape,", StringComparison.Ordinal))
+					{
+						IFormattedFileReader landscape = item.readObject("Item");
+						if (landscape == null)
+							continue;
+						RawMapLandscapeSummaryData landscapeSummary = context.Summary.Landscape;
+						landscapeSummary.HasHierarchyTileManifest = true;
+						int tileCount = landscape.readArrayLength("Tiles");
+						HashSet<string> uniqueCoords = new HashSet<string>(StringComparer.Ordinal);
+						for (int tileIndex = 0; tileIndex < tileCount; ++tileIndex)
+						{
+							IFormattedFileReader tile = landscape.readObject(tileIndex);
+							IFormattedFileReader coord = tile?.readObject("Coord");
+							if (coord == null)
+								continue;
+							int x = ParseCoordinate(coord.readValue("X"));
+							int y = ParseCoordinate(coord.readValue("Y"));
+							string key = x.ToString(CultureInfo.InvariantCulture) + "," + y.ToString(CultureInfo.InvariantCulture);
+							if (uniqueCoords.Add(key))
+								landscapeSummary.HierarchyTiles.Add(new RawMapLandscapeCoordData { X = x, Y = y });
+						}
+						landscapeSummary.HierarchyTiles = landscapeSummary.HierarchyTiles
+							.OrderBy(coord => coord.X).ThenBy(coord => coord.Y).ToList();
+						landscapeSummary.HierarchyTileCount = landscapeSummary.HierarchyTiles.Count;
+					}
 				}
 			}
 

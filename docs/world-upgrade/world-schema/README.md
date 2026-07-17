@@ -52,6 +52,10 @@ manifest, evidence, diff และ zone indices ถูกเก็บใน Git 
 
 พิกัดติดลบใช้ mathematical floor ดังนั้น `-0.01` อยู่ cell `-1` ไม่ใช่ cell `0`
 
+## Landscape authority
+
+`Level.hierarchy` เป็น authoritative manifest ของ active landscape tiles ส่วนไฟล์ height/splat/hole ที่อยู่บน disk แต่ไม่ได้ถูกอ้างใน hierarchy ถูกเก็บใน decoded diagnostic summary ด้วย `UnreferencedLandscapeSourceTile` แต่ไม่สร้าง world entity วิธีนี้ป้องกัน streamer สร้าง terrain จากไฟล์ค้างที่ runtime เดิมไม่ใช้
+
 ## Migration policy
 
 GUID เป็น asset identity หลัก ส่วน legacy ID เป็น compatibility alias เท่านั้น:
@@ -75,4 +79,4 @@ generator ตรวจ:
 
 ก่อนเขียน output รอบใหม่ generator โหลด schema เดิมและจำแนก entity เป็น `Added`, `Removed`, `Moved`, `Modified` และ `Unchanged` ใน `source-update-diff.json`
 
-ข้อจำกัดปัจจุบัน: hierarchy records, road ownership, environment volumes, navigation data และ runtime loading ยังไม่อยู่ใน schema ระยะ 2 งานเหล่านี้ต้องเพิ่มตาม gate ของ Phase 3–4
+ข้อจำกัดปัจจุบัน: hierarchy ถูก decode เฉพาะ type inventory และ authoritative landscape coordinates; hierarchy transforms อื่น, road ownership, environment volumes และ navigation data ยังไม่อยู่ใน schema Phase 3 เพิ่ม single-zone runtime parity แล้ว แต่ proximity/two-zone streaming ยังเป็นงาน Phase 4

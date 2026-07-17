@@ -146,9 +146,9 @@ Unity compile ผ่านด้วย Tundra build success บน Unity `2022.3
 
 | Zone | Cells | Entities | Landscape | Objects | Item | Zombie | Animal | Vehicle | Player |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| California 2 | 57 | 101,721 | 55 | 81,392 | 13,491 | 5,918 | 522 | 283 | 60 |
-| Limestone | 22 | 31,903 | 22 | 26,714 | 3,638 | 1,242 | 157 | 111 | 19 |
-| **รวม** | **79** | **133,624** | **77** | **108,106** | **17,129** | **7,160** | **679** | **394** | **79** |
+| California 2 | 49 | 101,710 | 44 | 81,392 | 13,491 | 5,918 | 522 | 283 | 60 |
+| Limestone | 19 | 31,899 | 18 | 26,714 | 3,638 | 1,242 | 157 | 111 | 19 |
+| **รวม** | **68** | **133,609** | **62** | **108,106** | **17,129** | **7,160** | **679** | **394** | **79** |
 
 ผล validator:
 
@@ -159,9 +159,11 @@ Unity compile ผ่านด้วย Tundra build success บน Unity `2022.3
 | Owner cell mismatches | 0 |
 | Zone overlaps | 0 |
 | Migration entries | 4,559 |
-| Warnings | 180 |
+| Warnings | 177 |
 
-warnings แบ่งเป็น ambiguous legacy alias groups 177 กลุ่มและ California orphan landscape cells 3 cell ทั้งสองประเภทถูกบันทึกพร้อม fail-safe policy
+warnings ทั้งหมดเป็น ambiguous legacy alias groups 177 กลุ่มที่ถูก quarantine ตาม GUID-primary policy
+
+> หมายเหตุแก้ไขจาก Phase 3: schema รุ่นแรกนับ loose landscape files เป็น active records 15 รายการ การตรวจ runtime พบว่า `Level.hierarchy` ไม่อ้าง tile เหล่านี้ จึงแก้ importer ให้ hierarchy เป็น authority และ regenerate ตัวเลขในตารางนี้ รายละเอียดอยู่ที่ [Incident Phase 3-002](phase-3-incident-002-hierarchy-landscape-authority-2026-07-18.th.md)
 
 ## 5. Determinism evidence
 
@@ -172,10 +174,10 @@ World ID:
 wld_7ef79abf4110d9747c72eb3eac927f56
 
 Manifest content fingerprint:
-8999396661f43effde76db1b6d480ffa14cf99ca13cbe5ba5e037de0d3d763c5
+0054f599da936c811f713fa4a5ec08715aec659261550a7eedac09ac225e0160
 
 Entity identity fingerprint:
-5b60f445ffc219ca757a0b59f153c7116066122a47a23331b9d98525230ae007
+e3719bada8fb39ed3b20c5850aac13f12510abff4d5bceacb7eef5987ae2920b
 ```
 
 หลัง generate ซ้ำจาก source เดิม:
@@ -183,10 +185,12 @@ Entity identity fingerprint:
 | Diff class | Count |
 |---|---:|
 | Added | 0 |
-| Removed | 0 |
+| Removed | 15 |
 | Moved | 0 |
 | Modified | 0 |
-| Unchanged | 133,624 |
+| Unchanged | 133,609 |
+
+diff นี้เป็น correction run ที่ถอด source-only landscape records 15 รายการออก entity ที่ active เดิม 133,609 รายการไม่ added, moved หรือ modified และ generator build ซ้ำใน process เดียวกันได้ fingerprint ตรงกัน
 
 ## 6. ปัญหาที่พบและการแก้
 
@@ -204,7 +208,7 @@ integration รอบแรก deterministic แต่ล้ม gate ด้ว�
 - environment volumes, foliage, navmesh และ map images ยังไม่อยู่ใน schema
 - spawn point stable key ใช้ source ordering; การ insert record กลาง legacy array อาจทำให้ record หลังจุด insert เปลี่ยน identity
 - object format เก่าที่ไม่มี instance ID ใช้ region/index fallback และมีข้อจำกัดเดียวกัน
-- orphan landscape cells 3 จุดยังไม่มี visual/collider fallback จนถึง Phase 3
+- loose landscape source-only tiles ถูก quarantine ตาม hierarchy authority; active tile ไม่มี missing-height fallback
 - explicit layout ยังมีช่องว่าง ไม่ใช่ seamless route
 - cell bundles ต้อง regenerate บนเครื่องที่มี source maps และไม่ถูก commit เพราะขนาดใหญ่
 
@@ -216,8 +220,8 @@ integration รอบแรก deterministic แต่ล้ม gate ด้ว�
 | Stable world/zone/cell/entity IDs | ผ่าน |
 | Asset GUID/legacy migration table | ผ่าน พร้อม quarantine policy |
 | California 2 + Limestone layout | ผ่าน; overlap 0 |
-| Static/dynamic owner cells | ผ่านสำหรับ landscape/object/spawn 133,624 records |
-| Generate ซ้ำ IDs ไม่เปลี่ยน | ผ่าน 133,624/133,624 |
+| Static/dynamic owner cells | ผ่านสำหรับ landscape/object/spawn 133,609 records |
+| Generate ซ้ำ IDs ไม่เปลี่ยน | ผ่าน repeated-build fingerprint; active entity IDs เดิม 133,609 รายการไม่เปลี่ยน |
 | Duplicate/collision detection | ผ่าน; duplicate 0, alias collision 177 กลุ่มถูก quarantine |
 | Source update classification | ผ่าน automated test และ unchanged integration rerun |
 | Unity compile | ผ่าน |
@@ -226,4 +230,4 @@ integration รอบแรก deterministic แต่ล้ม gate ด้ว�
 
 ## 9. ข้อสรุป
 
-Phase 2 ผ่าน gate และเผยแพร่บน GitHub แล้ว โลกใหม่มี identity และ ownership contract ที่ deterministic สำหรับ California 2 กับ Limestone โดยยังไม่กล่าวอ้างว่า runtime streaming ทำงาน ขั้นถัดไปคือ Phase 3: ใช้ cell schema โหลด California 2 แบบ single-zone ให้ terrain, collision และ static objects เทียบกับ baseline เดิม พร้อมกำหนด fallback สำหรับ orphan heightmaps และ black splat pixels ก่อนเริ่ม two-zone streaming
+Phase 2 ผ่าน gate และเผยแพร่บน GitHub แล้ว โลกใหม่มี identity และ ownership contract ที่ deterministic สำหรับ California 2 กับ Limestone การแก้ hierarchy authority ใน Phase 3 ตัดเฉพาะ loose source-only landscape records และรักษา stable IDs ของ active entities ขั้นถัดไปหลัง Phase 3 คือ two-zone streaming prototype โดยยังไม่กล่าวอ้างว่าเป็น seamless world

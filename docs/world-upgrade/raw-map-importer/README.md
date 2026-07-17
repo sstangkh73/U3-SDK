@@ -73,16 +73,16 @@ Limestone มี asset content อยู่ภายใน map root จึงม
 - Unity EditMode tests ผ่าน 9/9
 - decode แมพ 7/7 สำเร็จโดยไม่มี validation error
 - รวม item points 34,348 จุด, zombie points 14,690 จุด, objects 148,400 รายการ และ landscape heightmap 222 tiles
-- พบ source-data warning 5 รายการ: black splat pixel 2 จุด และ splat/hole tiles ที่ไม่มี heightmap คู่กัน 3 tiles ใน California 2
+- summary ที่ regenerate หลัง Phase 3 พบ warnings 20 รายการ: black splat 2, source-only landscape tiles 15 และ missing-height diagnostics 3 รายการที่ซ้อนอยู่ในกลุ่ม source-only
 
-Warning เหล่านี้ไม่ทำให้ decoder ล้ม แต่ runtime terrain ระยะถัดไปต้องมี fallback material/height policy และห้ามแก้ Workshop source โดยอัตโนมัติ
+Warning เหล่านี้ไม่ทำให้ decoder ล้ม `Level.hierarchy` เป็น authority ของ active terrain; source-only files ถูก inventory แต่ไม่ import และ black splat pixels ใช้ explicit layer 0 fallback โดยไม่แก้ Workshop source
 
 ## ขั้นถัดไป
 
-1. ใช้ deterministic world schema ที่สร้างแล้วเป็น input ของ single-zone runtime parity
-2. โหลด California 2 terrain/collision/static objects ผ่าน cell bundles
+1. ใช้ Phase 3 single-zone parity เป็น baseline ของ two-zone streamer
+2. เพิ่ม Limestone และ proximity-based cell activation
 3. decode navigation, environment volumes และ hierarchy records เพิ่ม
-4. กำหนด runtime fallback สำหรับ orphan landscape data และ black splat pixels
-5. ตรวจ load/unload memory cycling ก่อน cell streamer สอง zone
+4. วัด native memory/frame-time ด้วย Unity Profiler soak
+5. ทดสอบ transition safety ก่อนทำรอยต่อศิลป์จริง
 
 รายละเอียด schema, identity rules, migration policy และ output อยู่ใน [`docs/world-upgrade/world-schema/README.md`](../world-schema/README.md)

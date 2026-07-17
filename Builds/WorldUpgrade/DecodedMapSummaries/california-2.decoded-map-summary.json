@@ -4,7 +4,7 @@
   "DisplayName": "California 2",
   "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/workshop/content/304930/3707778928/California2",
   "SourceInventoryFingerprintSha256": "94bdfe59d2727f1a19d05d24a5b1ab89d17f029e6caca6831550c3c2e360489f",
-  "GeneratedUtc": "2026-07-17T19:12:31.6919313Z",
+  "GeneratedUtc": "2026-07-17T20:29:35.6271950Z",
   "IsValid": true,
   "SpawnFiles": [
     {
@@ -1920,6 +1920,9 @@
     "InvalidFileCount": 0,
     "MissingHeightmapCount": 3,
     "MissingSplatmapCount": 0,
+    "HasHierarchyTileManifest": true,
+    "HierarchyTileCount": 44,
+    "SourceOnlyTileCount": 11,
     "TotalHoleCount": 2722072,
     "WorldBounds": {
       "HasValue": true,
@@ -1934,10 +1937,189 @@
         "Z": 5120.0
       }
     },
+    "HierarchyTiles": [
+      {
+        "X": -4,
+        "Y": -4
+      },
+      {
+        "X": -2,
+        "Y": -2
+      },
+      {
+        "X": -2,
+        "Y": -1
+      },
+      {
+        "X": -2,
+        "Y": 0
+      },
+      {
+        "X": -2,
+        "Y": 1
+      },
+      {
+        "X": -2,
+        "Y": 2
+      },
+      {
+        "X": -2,
+        "Y": 3
+      },
+      {
+        "X": -2,
+        "Y": 4
+      },
+      {
+        "X": -1,
+        "Y": -2
+      },
+      {
+        "X": -1,
+        "Y": -1
+      },
+      {
+        "X": -1,
+        "Y": 0
+      },
+      {
+        "X": -1,
+        "Y": 1
+      },
+      {
+        "X": -1,
+        "Y": 2
+      },
+      {
+        "X": -1,
+        "Y": 3
+      },
+      {
+        "X": -1,
+        "Y": 4
+      },
+      {
+        "X": 0,
+        "Y": -4
+      },
+      {
+        "X": 0,
+        "Y": -2
+      },
+      {
+        "X": 0,
+        "Y": -1
+      },
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 0,
+        "Y": 2
+      },
+      {
+        "X": 0,
+        "Y": 3
+      },
+      {
+        "X": 0,
+        "Y": 4
+      },
+      {
+        "X": 1,
+        "Y": -2
+      },
+      {
+        "X": 1,
+        "Y": -1
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 2
+      },
+      {
+        "X": 1,
+        "Y": 3
+      },
+      {
+        "X": 1,
+        "Y": 4
+      },
+      {
+        "X": 2,
+        "Y": -2
+      },
+      {
+        "X": 2,
+        "Y": -1
+      },
+      {
+        "X": 2,
+        "Y": 0
+      },
+      {
+        "X": 2,
+        "Y": 1
+      },
+      {
+        "X": 2,
+        "Y": 2
+      },
+      {
+        "X": 2,
+        "Y": 3
+      },
+      {
+        "X": 2,
+        "Y": 4
+      },
+      {
+        "X": 3,
+        "Y": -2
+      },
+      {
+        "X": 3,
+        "Y": -1
+      },
+      {
+        "X": 3,
+        "Y": 0
+      },
+      {
+        "X": 3,
+        "Y": 1
+      },
+      {
+        "X": 3,
+        "Y": 2
+      },
+      {
+        "X": 3,
+        "Y": 3
+      },
+      {
+        "X": 3,
+        "Y": 4
+      }
+    ],
     "Tiles": [
       {
         "X": -4,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -1955,6 +2137,7 @@
       {
         "X": -3,
         "Y": 0,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1972,6 +2155,7 @@
       {
         "X": -2,
         "Y": -3,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1989,6 +2173,7 @@
       {
         "X": -2,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2006,6 +2191,7 @@
       {
         "X": -2,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2023,6 +2209,7 @@
       {
         "X": -2,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2040,6 +2227,7 @@
       {
         "X": -2,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2057,6 +2245,7 @@
       {
         "X": -2,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2074,6 +2263,7 @@
       {
         "X": -2,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2091,6 +2281,7 @@
       {
         "X": -2,
         "Y": 4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2108,6 +2299,7 @@
       {
         "X": -1,
         "Y": -6,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2125,6 +2317,7 @@
       {
         "X": -1,
         "Y": -3,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2142,6 +2335,7 @@
       {
         "X": -1,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2159,6 +2353,7 @@
       {
         "X": -1,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2176,6 +2371,7 @@
       {
         "X": -1,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2193,6 +2389,7 @@
       {
         "X": -1,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2210,6 +2407,7 @@
       {
         "X": -1,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2227,6 +2425,7 @@
       {
         "X": -1,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2244,6 +2443,7 @@
       {
         "X": -1,
         "Y": 4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2261,6 +2461,7 @@
       {
         "X": 0,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2278,6 +2479,7 @@
       {
         "X": 0,
         "Y": -3,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2295,6 +2497,7 @@
       {
         "X": 0,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2312,6 +2515,7 @@
       {
         "X": 0,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2329,6 +2533,7 @@
       {
         "X": 0,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2346,6 +2551,7 @@
       {
         "X": 0,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2363,6 +2569,7 @@
       {
         "X": 0,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2380,6 +2587,7 @@
       {
         "X": 0,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2397,6 +2605,7 @@
       {
         "X": 0,
         "Y": 4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2414,6 +2623,7 @@
       {
         "X": 1,
         "Y": -3,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2431,6 +2641,7 @@
       {
         "X": 1,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2448,6 +2659,7 @@
       {
         "X": 1,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2465,6 +2677,7 @@
       {
         "X": 1,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2482,6 +2695,7 @@
       {
         "X": 1,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2499,6 +2713,7 @@
       {
         "X": 1,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2516,6 +2731,7 @@
       {
         "X": 1,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2533,6 +2749,7 @@
       {
         "X": 1,
         "Y": 4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2550,6 +2767,7 @@
       {
         "X": 2,
         "Y": -6,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": false,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2567,6 +2785,7 @@
       {
         "X": 2,
         "Y": -4,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": false,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2584,6 +2803,7 @@
       {
         "X": 2,
         "Y": -3,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2601,6 +2821,7 @@
       {
         "X": 2,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2618,6 +2839,7 @@
       {
         "X": 2,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2635,6 +2857,7 @@
       {
         "X": 2,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2652,6 +2875,7 @@
       {
         "X": 2,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2669,6 +2893,7 @@
       {
         "X": 2,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2686,6 +2911,7 @@
       {
         "X": 2,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2703,6 +2929,7 @@
       {
         "X": 2,
         "Y": 4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2720,6 +2947,7 @@
       {
         "X": 3,
         "Y": -4,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": false,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2737,6 +2965,7 @@
       {
         "X": 3,
         "Y": -3,
+        "IsActiveInHierarchy": false,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2754,6 +2983,7 @@
       {
         "X": 3,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2771,6 +3001,7 @@
       {
         "X": 3,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2788,6 +3019,7 @@
       {
         "X": 3,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -2805,6 +3037,7 @@
       {
         "X": 3,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2822,6 +3055,7 @@
       {
         "X": 3,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2839,6 +3073,7 @@
       {
         "X": 3,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -2856,6 +3091,7 @@
       {
         "X": 3,
         "Y": 4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -3037,10 +3273,59 @@
     },
     {
       "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile -3,0 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile -2,-3 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile -1,-6 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile -1,-3 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 0,-3 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 1,-3 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
       "Code": "MissingLandscapeHeightmap",
       "RelativePath": "Landscape/Heightmaps",
       "Offset": -1,
       "Message": "Tile 2,-6 has splatmap or holes data but no matching source heightmap."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 2,-6 has source files but is not referenced by Level.hierarchy and will not be imported."
     },
     {
       "Severity": "Warning",
@@ -3051,10 +3336,38 @@
     },
     {
       "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 2,-4 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 2,-3 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
       "Code": "MissingLandscapeHeightmap",
       "RelativePath": "Landscape/Heightmaps",
       "Offset": -1,
       "Message": "Tile 3,-4 has splatmap or holes data but no matching source heightmap."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 3,-4 has source files but is not referenced by Level.hierarchy and will not be imported."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UnreferencedLandscapeSourceTile",
+      "RelativePath": "Landscape",
+      "Offset": -1,
+      "Message": "Tile 3,-3 has source files but is not referenced by Level.hierarchy and will not be imported."
     }
   ]
 }

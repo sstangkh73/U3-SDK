@@ -4,7 +4,7 @@
   "DisplayName": "PEI",
   "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/PEI",
   "SourceInventoryFingerprintSha256": "6c35a215c645ff405fc2f813159433e151f89f96fb1c7603a4509ddcf02fe249",
-  "GeneratedUtc": "2026-07-17T19:12:32.9062096Z",
+  "GeneratedUtc": "2026-07-17T20:29:37.5424307Z",
   "IsValid": true,
   "SpawnFiles": [
     {
@@ -750,6 +750,9 @@
     "InvalidFileCount": 0,
     "MissingHeightmapCount": 0,
     "MissingSplatmapCount": 0,
+    "HasHierarchyTileManifest": true,
+    "HierarchyTileCount": 16,
+    "SourceOnlyTileCount": 0,
     "TotalHoleCount": 131059,
     "WorldBounds": {
       "HasValue": true,
@@ -764,10 +767,77 @@
         "Z": 2048.0
       }
     },
+    "HierarchyTiles": [
+      {
+        "X": -2,
+        "Y": -2
+      },
+      {
+        "X": -2,
+        "Y": -1
+      },
+      {
+        "X": -2,
+        "Y": 0
+      },
+      {
+        "X": -2,
+        "Y": 1
+      },
+      {
+        "X": -1,
+        "Y": -2
+      },
+      {
+        "X": -1,
+        "Y": -1
+      },
+      {
+        "X": -1,
+        "Y": 0
+      },
+      {
+        "X": -1,
+        "Y": 1
+      },
+      {
+        "X": 0,
+        "Y": -2
+      },
+      {
+        "X": 0,
+        "Y": -1
+      },
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": -2
+      },
+      {
+        "X": 1,
+        "Y": -1
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 1
+      }
+    ],
     "Tiles": [
       {
         "X": -2,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -785,6 +855,7 @@
       {
         "X": -2,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -802,6 +873,7 @@
       {
         "X": -2,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -819,6 +891,7 @@
       {
         "X": -2,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -836,6 +909,7 @@
       {
         "X": -1,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -853,6 +927,7 @@
       {
         "X": -1,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -870,6 +945,7 @@
       {
         "X": -1,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -887,6 +963,7 @@
       {
         "X": -1,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -904,6 +981,7 @@
       {
         "X": 0,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -921,6 +999,7 @@
       {
         "X": 0,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -938,6 +1017,7 @@
       {
         "X": 0,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": true,
@@ -955,6 +1035,7 @@
       {
         "X": 0,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -972,6 +1053,7 @@
       {
         "X": 1,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -989,6 +1071,7 @@
       {
         "X": 1,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1006,6 +1089,7 @@
       {
         "X": 1,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1023,6 +1107,7 @@
       {
         "X": 1,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,

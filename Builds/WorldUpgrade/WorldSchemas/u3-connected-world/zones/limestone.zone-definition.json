@@ -20,7 +20,7 @@
     "Max": {
       "X": 3072.0,
       "Y": 1024.0,
-      "Z": 4096.0
+      "Z": 2048.0
     }
   },
   "WorldBounds": {
@@ -33,14 +33,14 @@
     "Max": {
       "X": 10240.0,
       "Y": 1024.0,
-      "Z": 4096.0
+      "Z": 2048.0
     }
   },
   "SourceInventoryFingerprintSha256": "8e33f2a646777098c35bb7b3ef0de0eb37a7161c9d6a0b2c4167344a7a877c92",
   "SourceDecodedSchemaVersion": 1,
-  "ContentFingerprintSha256": "a253c84136c55220c341a41bfe0e6dad2be9f9a6c5fefe8f2f5c18558d288975",
-  "EntityIdentityFingerprintSha256": "837862f842ef87bdfafcb90135fc13489f0caa0efce3f4c4ec65484d4777da04",
-  "EntityCount": 31903,
+  "ContentFingerprintSha256": "22de8db62977775acdb16227d2b673521c01327453b56f504b646954133881e1",
+  "EntityIdentityFingerprintSha256": "8febf4a02781b21720f89bb0f6ea1d6b74439d8d9b4ee2ae4f086a0a61fefc14",
+  "EntityCount": 31899,
   "RecordCounts": [
     {
       "Kind": "AnimalSpawn",
@@ -52,7 +52,7 @@
     },
     {
       "Kind": "LandscapeTile",
-      "Count": 22
+      "Count": 18
     },
     {
       "Kind": "PlayerSpawn",
@@ -545,50 +545,6 @@
       ]
     },
     {
-      "CellId": "cel_f1217db58e1e6913f67ca31cddfe732a",
-      "GridX": -1,
-      "GridZ": 3,
-      "RelativePath": "cells/limestone/-1_3.world-cell.json",
-      "LocalBounds": {
-        "HasValue": true,
-        "Min": {
-          "X": -1024.0,
-          "Y": -1024.0,
-          "Z": 3072.0
-        },
-        "Max": {
-          "X": 0.0,
-          "Y": 1024.0,
-          "Z": 4096.0
-        }
-      },
-      "WorldBounds": {
-        "HasValue": true,
-        "Min": {
-          "X": 6144.0,
-          "Y": -1024.0,
-          "Z": 3072.0
-        },
-        "Max": {
-          "X": 7168.0,
-          "Y": 1024.0,
-          "Z": 4096.0
-        }
-      },
-      "EntityCount": 1,
-      "EntityFingerprintSha256": "68fab9ffb73d119bbbfc0834517def95b1251160d29c5a651100eeb22d85e496",
-      "HasLandscapeRecord": true,
-      "LandscapeHasHeightmap": true,
-      "LandscapeHasSplatmap": true,
-      "LandscapeHasHoles": false,
-      "RecordCounts": [
-        {
-          "Kind": "LandscapeTile",
-          "Count": 1
-        }
-      ]
-    },
-    {
       "CellId": "cel_7f4fd54a9e6f85e6d93dcc87eb62c766",
       "GridX": 0,
       "GridZ": -2,
@@ -805,50 +761,6 @@
         {
           "Kind": "StaticObject",
           "Count": 4
-        }
-      ]
-    },
-    {
-      "CellId": "cel_2bb96f962cb1f839ed416297e295b5e0",
-      "GridX": 0,
-      "GridZ": 2,
-      "RelativePath": "cells/limestone/0_2.world-cell.json",
-      "LocalBounds": {
-        "HasValue": true,
-        "Min": {
-          "X": 0.0,
-          "Y": -1024.0,
-          "Z": 2048.0
-        },
-        "Max": {
-          "X": 1024.0,
-          "Y": 1024.0,
-          "Z": 3072.0
-        }
-      },
-      "WorldBounds": {
-        "HasValue": true,
-        "Min": {
-          "X": 7168.0,
-          "Y": -1024.0,
-          "Z": 2048.0
-        },
-        "Max": {
-          "X": 8192.0,
-          "Y": 1024.0,
-          "Z": 3072.0
-        }
-      },
-      "EntityCount": 1,
-      "EntityFingerprintSha256": "63a50bd0214aa74a6242379fc1ec0de5241eac17e48679914fafd2f128c53fee",
-      "HasLandscapeRecord": true,
-      "LandscapeHasHeightmap": true,
-      "LandscapeHasSplatmap": true,
-      "LandscapeHasHoles": false,
-      "RecordCounts": [
-        {
-          "Kind": "LandscapeTile",
-          "Count": 1
         }
       ]
     },
@@ -1099,17 +1011,13 @@
           "Z": -1024.0
         }
       },
-      "EntityCount": 4,
-      "EntityFingerprintSha256": "10c3a4e419eb38a9895fabb707ae74d004fc1863faf3320a6b8e76c32e4b18ea",
-      "HasLandscapeRecord": true,
-      "LandscapeHasHeightmap": true,
-      "LandscapeHasSplatmap": true,
-      "LandscapeHasHoles": true,
+      "EntityCount": 3,
+      "EntityFingerprintSha256": "77ad5fb2bc71e426702c30d5b7820fd832d806c387df32659dfe58379eb62d58",
+      "HasLandscapeRecord": false,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": false,
+      "LandscapeHasHoles": false,
       "RecordCounts": [
-        {
-          "Kind": "LandscapeTile",
-          "Count": 1
-        },
         {
           "Kind": "StaticObject",
           "Count": 3
@@ -1193,50 +1101,6 @@
       },
       "EntityCount": 1,
       "EntityFingerprintSha256": "b93eb8153750a62c503c4b97167b15b1f34b8d05dcf30ab133d86e87843e778f",
-      "HasLandscapeRecord": true,
-      "LandscapeHasHeightmap": true,
-      "LandscapeHasSplatmap": true,
-      "LandscapeHasHoles": true,
-      "RecordCounts": [
-        {
-          "Kind": "LandscapeTile",
-          "Count": 1
-        }
-      ]
-    },
-    {
-      "CellId": "cel_f24db6aa66e5064de9246abeab8f0f00",
-      "GridX": 2,
-      "GridZ": 1,
-      "RelativePath": "cells/limestone/2_1.world-cell.json",
-      "LocalBounds": {
-        "HasValue": true,
-        "Min": {
-          "X": 2048.0,
-          "Y": -1024.0,
-          "Z": 1024.0
-        },
-        "Max": {
-          "X": 3072.0,
-          "Y": 1024.0,
-          "Z": 2048.0
-        }
-      },
-      "WorldBounds": {
-        "HasValue": true,
-        "Min": {
-          "X": 9216.0,
-          "Y": -1024.0,
-          "Z": 1024.0
-        },
-        "Max": {
-          "X": 10240.0,
-          "Y": 1024.0,
-          "Z": 2048.0
-        }
-      },
-      "EntityCount": 1,
-      "EntityFingerprintSha256": "305cc83bc6ce96de2b9234db0a2d095e4f5e59cf6600848bb89e7798a730d1af",
       "HasLandscapeRecord": true,
       "LandscapeHasHeightmap": true,
       "LandscapeHasSplatmap": true,

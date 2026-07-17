@@ -6,8 +6,8 @@
   "DisplayName": "U3 Connected World",
   "CellSize": 1024,
   "SourceFingerprintSha256": "92a9e81aa2102aca3031988a6c14811a8f60f205dd8bfcf64cd1c0fc184053cf",
-  "ContentFingerprintSha256": "8999396661f43effde76db1b6d480ffa14cf99ca13cbe5ba5e037de0d3d763c5",
-  "EntityIdentityFingerprintSha256": "5b60f445ffc219ca757a0b59f153c7116066122a47a23331b9d98525230ae007",
+  "ContentFingerprintSha256": "0054f599da936c811f713fa4a5ec08715aec659261550a7eedac09ac225e0160",
+  "EntityIdentityFingerprintSha256": "e3719bada8fb39ed3b20c5850aac13f12510abff4d5bceacb7eef5987ae2920b",
   "Zones": [
     {
       "ZoneKey": "california-2",
@@ -24,7 +24,7 @@
         "Min": {
           "X": -4096.0,
           "Y": -1024.0,
-          "Z": -6144.0
+          "Z": -4096.0
         },
         "Max": {
           "X": 4096.0,
@@ -37,7 +37,7 @@
         "Min": {
           "X": -4096.0,
           "Y": -1024.0,
-          "Z": -6144.0
+          "Z": -4096.0
         },
         "Max": {
           "X": 4096.0,
@@ -46,10 +46,10 @@
         }
       },
       "SourceInventoryFingerprintSha256": "94bdfe59d2727f1a19d05d24a5b1ab89d17f029e6caca6831550c3c2e360489f",
-      "ContentFingerprintSha256": "fa53d9be9eda841b2291421c0c5cebbbe0bd4e2914660cae566997c8060524b0",
-      "EntityIdentityFingerprintSha256": "47c49df1268e9b753f7cb9602a368874b9ec4d898a81d09e823fac51de9dfafe",
-      "CellCount": 57,
-      "EntityCount": 101721,
+      "ContentFingerprintSha256": "9c125f8785b60864ef42348d46d477a8c30d0ce1469d09a288d5865e8e24ee19",
+      "EntityIdentityFingerprintSha256": "a0086f8dd522fd07202c15ec07d7bf766a2a154416d16e69dc9212efced46202",
+      "CellCount": 49,
+      "EntityCount": 101710,
       "RecordCounts": [
         {
           "Kind": "AnimalSpawn",
@@ -61,7 +61,7 @@
         },
         {
           "Kind": "LandscapeTile",
-          "Count": 55
+          "Count": 44
         },
         {
           "Kind": "PlayerSpawn",
@@ -101,7 +101,7 @@
         "Max": {
           "X": 3072.0,
           "Y": 1024.0,
-          "Z": 4096.0
+          "Z": 2048.0
         }
       },
       "WorldBounds": {
@@ -114,14 +114,14 @@
         "Max": {
           "X": 10240.0,
           "Y": 1024.0,
-          "Z": 4096.0
+          "Z": 2048.0
         }
       },
       "SourceInventoryFingerprintSha256": "8e33f2a646777098c35bb7b3ef0de0eb37a7161c9d6a0b2c4167344a7a877c92",
-      "ContentFingerprintSha256": "a253c84136c55220c341a41bfe0e6dad2be9f9a6c5fefe8f2f5c18558d288975",
-      "EntityIdentityFingerprintSha256": "837862f842ef87bdfafcb90135fc13489f0caa0efce3f4c4ec65484d4777da04",
-      "CellCount": 22,
-      "EntityCount": 31903,
+      "ContentFingerprintSha256": "22de8db62977775acdb16227d2b673521c01327453b56f504b646954133881e1",
+      "EntityIdentityFingerprintSha256": "8febf4a02781b21720f89bb0f6ea1d6b74439d8d9b4ee2ae4f086a0a61fefc14",
+      "CellCount": 19,
+      "EntityCount": 31899,
       "RecordCounts": [
         {
           "Kind": "AnimalSpawn",
@@ -133,7 +133,7 @@
         },
         {
           "Kind": "LandscapeTile",
-          "Count": 22
+          "Count": 18
         },
         {
           "Kind": "PlayerSpawn",
@@ -77489,33 +77489,15 @@
   "Validation": {
     "IsValid": true,
     "ErrorCount": 0,
-    "WarningCount": 180,
+    "WarningCount": 177,
     "ZoneCount": 2,
-    "CellCount": 79,
-    "EntityCount": 133624,
+    "CellCount": 68,
+    "EntityCount": 133609,
     "MigrationCount": 4559,
     "DuplicateIdCount": 0,
     "OwnerCellMismatchCount": 0,
     "ZoneOverlapCount": 0,
     "Issues": [
-      {
-        "Severity": "Warning",
-        "Code": "LandscapeWithoutHeightmap",
-        "ScopeId": "cel_631d55f1dfb1fa85ccc2f4c9b6de7daa",
-        "Message": "Cell has splatmap or holes source data without a matching heightmap. Runtime fallback policy is required."
-      },
-      {
-        "Severity": "Warning",
-        "Code": "LandscapeWithoutHeightmap",
-        "ScopeId": "cel_032732066663160c9bb8d31ae734659e",
-        "Message": "Cell has splatmap or holes source data without a matching heightmap. Runtime fallback policy is required."
-      },
-      {
-        "Severity": "Warning",
-        "Code": "LandscapeWithoutHeightmap",
-        "ScopeId": "cel_6d21f9c4aea0cf3aa8648a117d4ebec4",
-        "Message": "Cell has splatmap or holes source data without a matching heightmap. Runtime fallback policy is required."
-      },
       {
         "Severity": "Warning",
         "Code": "QuarantinedMigrationAliasCollision",

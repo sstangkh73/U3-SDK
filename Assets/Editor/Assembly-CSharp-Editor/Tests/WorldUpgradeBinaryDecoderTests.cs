@@ -248,6 +248,30 @@ namespace SDG.Unturned.Tests
 			Assert.AreEqual("Example.Type, Assembly-CSharp", decoded.Hierarchy.Types.Single().TypeName);
 		}
 
+		[Test]
+		public void HierarchyLandscapeManifestQuarantinesUnreferencedSourceTiles()
+		{
+			string heightmaps = Directory.CreateDirectory(Path.Combine(tempRoot, "Landscape", "Heightmaps")).FullName;
+			File.WriteAllBytes(Path.Combine(heightmaps, "Tile_0_0_Source.heightmap"), new byte[257 * 257 * 2]);
+			File.WriteAllBytes(Path.Combine(heightmaps, "Tile_1_1_Source.heightmap"), new byte[257 * 257 * 2]);
+			string hierarchy = "\"Available_Instance_ID\" \"2\"\n\"Items\"\n[\n{\n" +
+				"\"Type\" \"SDG.Framework.Landscapes.Landscape, Assembly-CSharp\"\n" +
+				"\"Item\"\n{\n\"Tiles\"\n[\n{\n\"Coord\"\n{\n\"X\" \"0\"\n\"Y\" \"0\"\n}\n}\n]\n}\n}\n]\n";
+			File.WriteAllText(Path.Combine(tempRoot, "Level.hierarchy"), hierarchy, Encoding.UTF8);
+			RawMapDecodedSummaryData decoded = NewSummary();
+			RawMapDecodeContext context = new RawMapDecodeContext(tempRoot, decoded);
+
+			RawMapGeometryDecoder.DecodeHierarchy(context);
+			RawMapGeometryDecoder.DecodeLandscape(context);
+
+			Assert.IsTrue(decoded.Landscape.HasHierarchyTileManifest);
+			Assert.AreEqual(1, decoded.Landscape.HierarchyTileCount);
+			Assert.AreEqual(1, decoded.Landscape.SourceOnlyTileCount);
+			Assert.AreEqual(2, decoded.Landscape.Tiles.Count);
+			Assert.AreEqual(1, context.EntitySeeds.Count(seed => seed.Kind == "LandscapeTile"));
+			Assert.IsTrue(decoded.Issues.Any(issue => issue.Code == "UnreferencedLandscapeSourceTile" && issue.Severity == "Warning"));
+		}
+
 		private RawMapDecodedSummaryData NewSummary()
 		{
 			return new RawMapDecodedSummaryData { ZoneId = "test", DisplayName = "Test", SourceRoot = tempRoot };

@@ -75,10 +75,18 @@ namespace SDG.Unturned.WorldUpgrade
 	}
 
 	[Serializable]
+	public class RawMapLandscapeCoordData
+	{
+		public int X;
+		public int Y;
+	}
+
+	[Serializable]
 	public class RawMapLandscapeTileSummaryData
 	{
 		public int X;
 		public int Y;
+		public bool IsActiveInHierarchy;
 		public bool HasHeightmap;
 		public bool HasSplatmap;
 		public bool HasHoles;
@@ -105,8 +113,12 @@ namespace SDG.Unturned.WorldUpgrade
 		public int InvalidFileCount;
 		public int MissingHeightmapCount;
 		public int MissingSplatmapCount;
+		public bool HasHierarchyTileManifest;
+		public int HierarchyTileCount;
+		public int SourceOnlyTileCount;
 		public int TotalHoleCount;
 		public RawMapBoundsData WorldBounds = new RawMapBoundsData();
+		public List<RawMapLandscapeCoordData> HierarchyTiles = new List<RawMapLandscapeCoordData>();
 		public List<RawMapLandscapeTileSummaryData> Tiles = new List<RawMapLandscapeTileSummaryData>();
 	}
 

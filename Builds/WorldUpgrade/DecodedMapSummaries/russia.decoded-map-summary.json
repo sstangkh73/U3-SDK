@@ -4,7 +4,7 @@
   "DisplayName": "Russia",
   "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/Russia",
   "SourceInventoryFingerprintSha256": "a694aef6f96cbcbdbe807a2b3adeb6cdd226e4f2fb08439e8738aef6dea8f5ea",
-  "GeneratedUtc": "2026-07-17T19:12:33.3743266Z",
+  "GeneratedUtc": "2026-07-17T20:29:39.5041513Z",
   "IsValid": true,
   "SpawnFiles": [
     {
@@ -876,6 +876,9 @@
     "InvalidFileCount": 0,
     "MissingHeightmapCount": 0,
     "MissingSplatmapCount": 0,
+    "HasHierarchyTileManifest": true,
+    "HierarchyTileCount": 64,
+    "SourceOnlyTileCount": 0,
     "TotalHoleCount": 0,
     "WorldBounds": {
       "HasValue": true,
@@ -890,10 +893,269 @@
         "Z": 4096.0
       }
     },
+    "HierarchyTiles": [
+      {
+        "X": -4,
+        "Y": -4
+      },
+      {
+        "X": -4,
+        "Y": -3
+      },
+      {
+        "X": -4,
+        "Y": -2
+      },
+      {
+        "X": -4,
+        "Y": -1
+      },
+      {
+        "X": -4,
+        "Y": 0
+      },
+      {
+        "X": -4,
+        "Y": 1
+      },
+      {
+        "X": -4,
+        "Y": 2
+      },
+      {
+        "X": -4,
+        "Y": 3
+      },
+      {
+        "X": -3,
+        "Y": -4
+      },
+      {
+        "X": -3,
+        "Y": -3
+      },
+      {
+        "X": -3,
+        "Y": -2
+      },
+      {
+        "X": -3,
+        "Y": -1
+      },
+      {
+        "X": -3,
+        "Y": 0
+      },
+      {
+        "X": -3,
+        "Y": 1
+      },
+      {
+        "X": -3,
+        "Y": 2
+      },
+      {
+        "X": -3,
+        "Y": 3
+      },
+      {
+        "X": -2,
+        "Y": -4
+      },
+      {
+        "X": -2,
+        "Y": -3
+      },
+      {
+        "X": -2,
+        "Y": -2
+      },
+      {
+        "X": -2,
+        "Y": -1
+      },
+      {
+        "X": -2,
+        "Y": 0
+      },
+      {
+        "X": -2,
+        "Y": 1
+      },
+      {
+        "X": -2,
+        "Y": 2
+      },
+      {
+        "X": -2,
+        "Y": 3
+      },
+      {
+        "X": -1,
+        "Y": -4
+      },
+      {
+        "X": -1,
+        "Y": -3
+      },
+      {
+        "X": -1,
+        "Y": -2
+      },
+      {
+        "X": -1,
+        "Y": -1
+      },
+      {
+        "X": -1,
+        "Y": 0
+      },
+      {
+        "X": -1,
+        "Y": 1
+      },
+      {
+        "X": -1,
+        "Y": 2
+      },
+      {
+        "X": -1,
+        "Y": 3
+      },
+      {
+        "X": 0,
+        "Y": -4
+      },
+      {
+        "X": 0,
+        "Y": -3
+      },
+      {
+        "X": 0,
+        "Y": -2
+      },
+      {
+        "X": 0,
+        "Y": -1
+      },
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 0,
+        "Y": 2
+      },
+      {
+        "X": 0,
+        "Y": 3
+      },
+      {
+        "X": 1,
+        "Y": -4
+      },
+      {
+        "X": 1,
+        "Y": -3
+      },
+      {
+        "X": 1,
+        "Y": -2
+      },
+      {
+        "X": 1,
+        "Y": -1
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 2
+      },
+      {
+        "X": 1,
+        "Y": 3
+      },
+      {
+        "X": 2,
+        "Y": -4
+      },
+      {
+        "X": 2,
+        "Y": -3
+      },
+      {
+        "X": 2,
+        "Y": -2
+      },
+      {
+        "X": 2,
+        "Y": -1
+      },
+      {
+        "X": 2,
+        "Y": 0
+      },
+      {
+        "X": 2,
+        "Y": 1
+      },
+      {
+        "X": 2,
+        "Y": 2
+      },
+      {
+        "X": 2,
+        "Y": 3
+      },
+      {
+        "X": 3,
+        "Y": -4
+      },
+      {
+        "X": 3,
+        "Y": -3
+      },
+      {
+        "X": 3,
+        "Y": -2
+      },
+      {
+        "X": 3,
+        "Y": -1
+      },
+      {
+        "X": 3,
+        "Y": 0
+      },
+      {
+        "X": 3,
+        "Y": 1
+      },
+      {
+        "X": 3,
+        "Y": 2
+      },
+      {
+        "X": 3,
+        "Y": 3
+      }
+    ],
     "Tiles": [
       {
         "X": -4,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -911,6 +1173,7 @@
       {
         "X": -4,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -928,6 +1191,7 @@
       {
         "X": -4,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -945,6 +1209,7 @@
       {
         "X": -4,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -962,6 +1227,7 @@
       {
         "X": -4,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -979,6 +1245,7 @@
       {
         "X": -4,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -996,6 +1263,7 @@
       {
         "X": -4,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1013,6 +1281,7 @@
       {
         "X": -4,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1030,6 +1299,7 @@
       {
         "X": -3,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1047,6 +1317,7 @@
       {
         "X": -3,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1064,6 +1335,7 @@
       {
         "X": -3,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1081,6 +1353,7 @@
       {
         "X": -3,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1098,6 +1371,7 @@
       {
         "X": -3,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1115,6 +1389,7 @@
       {
         "X": -3,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1132,6 +1407,7 @@
       {
         "X": -3,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1149,6 +1425,7 @@
       {
         "X": -3,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1166,6 +1443,7 @@
       {
         "X": -2,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1183,6 +1461,7 @@
       {
         "X": -2,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1200,6 +1479,7 @@
       {
         "X": -2,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1217,6 +1497,7 @@
       {
         "X": -2,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1234,6 +1515,7 @@
       {
         "X": -2,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1251,6 +1533,7 @@
       {
         "X": -2,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1268,6 +1551,7 @@
       {
         "X": -2,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1285,6 +1569,7 @@
       {
         "X": -2,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1302,6 +1587,7 @@
       {
         "X": -1,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1319,6 +1605,7 @@
       {
         "X": -1,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1336,6 +1623,7 @@
       {
         "X": -1,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1353,6 +1641,7 @@
       {
         "X": -1,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1370,6 +1659,7 @@
       {
         "X": -1,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1387,6 +1677,7 @@
       {
         "X": -1,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1404,6 +1695,7 @@
       {
         "X": -1,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1421,6 +1713,7 @@
       {
         "X": -1,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1438,6 +1731,7 @@
       {
         "X": 0,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1455,6 +1749,7 @@
       {
         "X": 0,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1472,6 +1767,7 @@
       {
         "X": 0,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1489,6 +1785,7 @@
       {
         "X": 0,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1506,6 +1803,7 @@
       {
         "X": 0,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1523,6 +1821,7 @@
       {
         "X": 0,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1540,6 +1839,7 @@
       {
         "X": 0,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1557,6 +1857,7 @@
       {
         "X": 0,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1574,6 +1875,7 @@
       {
         "X": 1,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1591,6 +1893,7 @@
       {
         "X": 1,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1608,6 +1911,7 @@
       {
         "X": 1,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1625,6 +1929,7 @@
       {
         "X": 1,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1642,6 +1947,7 @@
       {
         "X": 1,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1659,6 +1965,7 @@
       {
         "X": 1,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1676,6 +1983,7 @@
       {
         "X": 1,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1693,6 +2001,7 @@
       {
         "X": 1,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1710,6 +2019,7 @@
       {
         "X": 2,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1727,6 +2037,7 @@
       {
         "X": 2,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1744,6 +2055,7 @@
       {
         "X": 2,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1761,6 +2073,7 @@
       {
         "X": 2,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1778,6 +2091,7 @@
       {
         "X": 2,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1795,6 +2109,7 @@
       {
         "X": 2,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1812,6 +2127,7 @@
       {
         "X": 2,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1829,6 +2145,7 @@
       {
         "X": 2,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1846,6 +2163,7 @@
       {
         "X": 3,
         "Y": -4,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1863,6 +2181,7 @@
       {
         "X": 3,
         "Y": -3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1880,6 +2199,7 @@
       {
         "X": 3,
         "Y": -2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1897,6 +2217,7 @@
       {
         "X": 3,
         "Y": -1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1914,6 +2235,7 @@
       {
         "X": 3,
         "Y": 0,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1931,6 +2253,7 @@
       {
         "X": 3,
         "Y": 1,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1948,6 +2271,7 @@
       {
         "X": 3,
         "Y": 2,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
@@ -1965,6 +2289,7 @@
       {
         "X": 3,
         "Y": 3,
+        "IsActiveInHierarchy": true,
         "HasHeightmap": true,
         "HasSplatmap": true,
         "HasHoles": false,
