@@ -1,0 +1,21 @@
+{
+  "SchemaVersion": 1,
+  "PolicyId": "u3-connected-world-default",
+  "Population": {
+    "ItemEntitiesPerCell": 2,
+    "ZombieEntitiesPerCell": 2,
+    "AnimalEntitiesPerCell": 1,
+    "VehicleEntitiesPerCell": 1,
+    "MaximumPersistentPopulation": 10000
+  },
+  "Survival": {
+    "FoodDrainMultiplier": 1.0,
+    "WaterDrainMultiplier": 1.0,
+    "VirusDrainMultiplier": 1.0
+  },
+  "Economy": {
+    "ItemRespawnTicks": 600,
+    "VehicleRespawnTicks": 3600,
+    "LootAbundanceMultiplier": 1.0
+  }
+}
