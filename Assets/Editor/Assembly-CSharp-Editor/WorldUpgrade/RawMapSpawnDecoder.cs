@@ -49,6 +49,7 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					Name = reader.ReadByteLengthUtf8String(),
 					LegacyTableId = summary.Version > 3 ? reader.ReadUInt16() : 0,
 				};
+				AddTableAlias(context, "ItemSpawnTable", table, path);
 
 				int tierCount = reader.ReadByte();
 				table.TierCount = tierCount;
@@ -116,6 +117,7 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 				{
 					reader.ReadByte(); // legacy loot table index
 				}
+				AddTableAlias(context, "ZombieSpawnTable", table, path);
 
 				int slotCount = reader.ReadByte();
 				if (slotCount > 4)
@@ -156,6 +158,7 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					Name = reader.ReadByteLengthUtf8String(),
 					LegacyTableId = summary.Version > 2 ? reader.ReadUInt16() : 0,
 				};
+				AddTableAlias(context, "AnimalSpawnTable", table, path);
 				int tierCount = reader.ReadByte();
 				table.TierCount = tierCount;
 				for (int tierIndex = 0; tierIndex < tierCount; ++tierIndex)
@@ -175,6 +178,7 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 			{
 				int type = reader.ReadByte();
 				RawMapVector3Data point = reader.ReadVector3();
+				AddSpawnSeed(context, "AnimalSpawn", path, "point:" + index, point, type);
 				RawMapDecodeContext.Include(summary.SpawnBounds, point);
 				if (type >= tableCount)
 					summary.InvalidTableReferenceCount++;
@@ -207,6 +211,7 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					Name = reader.ReadByteLengthUtf8String(),
 					LegacyTableId = summary.Version > 3 ? reader.ReadUInt16() : 0,
 				};
+				AddTableAlias(context, "VehicleSpawnTable", table, path);
 				int tierCount = reader.ReadByte();
 				table.TierCount = tierCount;
 				for (int tierIndex = 0; tierIndex < tierCount; ++tierIndex)
@@ -226,7 +231,9 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 			{
 				int type = reader.ReadByte();
 				RawMapVector3Data point = reader.ReadVector3();
-				reader.ReadByte(); // angle / 2
+				int angle = reader.ReadByte(); // angle / 2
+				WorldSchemaEntitySeed seed = AddSpawnSeed(context, "VehicleSpawn", path, "point:" + index, point, type);
+				seed.Angle = angle;
 				RawMapDecodeContext.Include(summary.SpawnBounds, point);
 				if (type >= tableCount)
 					summary.InvalidTableReferenceCount++;
@@ -252,9 +259,13 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 			for (int index = 0; index < pointCount; ++index)
 			{
 				RawMapVector3Data point = reader.ReadVector3();
-				reader.ReadByte(); // angle / 2
+				int angle = reader.ReadByte(); // angle / 2
+				bool alternate = false;
 				if (summary.Version > 3)
-					reader.ReadBoolean(); // alternate spawn
+					alternate = reader.ReadBoolean(); // alternate spawn
+				WorldSchemaEntitySeed seed = AddSpawnSeed(context, "PlayerSpawn", path, "point:" + index, point, -1);
+				seed.Angle = angle;
+				seed.Alternate = alternate;
 				RawMapDecodeContext.Include(summary.SpawnBounds, point);
 			}
 			summary.SpawnPointCount = pointCount;
@@ -283,6 +294,8 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 						{
 							int type = reader.ReadByte();
 							RawMapVector3Data point = reader.ReadVector3();
+							string kind = string.Equals(path, "Spawns/Jars.dat", StringComparison.Ordinal) ? "ItemSpawn" : "ZombieSpawn";
+							AddSpawnSeed(context, kind, path, "region:" + x + ":" + y + ":" + index, point, type);
 							RawMapDecodeContext.Include(summary.SpawnBounds, point);
 							if (type >= tableCount)
 								summary.InvalidTableReferenceCount++;
@@ -320,6 +333,32 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 				context.AddError("InvalidSpawnTableReference", summary.RelativePath, -1, summary.InvalidTableReferenceCount + " spawn point(s) reference a table index outside the decoded table list.");
 			if (summary.TrailingBytes > 0)
 				context.AddWarning("TrailingBytes", summary.RelativePath, reader.Position, summary.TrailingBytes + " trailing byte(s) were not consumed by the known format.");
+		}
+
+		private static WorldSchemaEntitySeed AddSpawnSeed(RawMapDecodeContext context, string kind, string path,
+			string sourceSuffix, RawMapVector3Data point, int tableIndex)
+		{
+			WorldSchemaEntitySeed seed = new WorldSchemaEntitySeed
+			{
+				Kind = kind,
+				SourceKey = path + "#" + sourceSuffix,
+				Position = point,
+				TableIndex = tableIndex,
+			};
+			context.EntitySeeds.Add(seed);
+			return seed;
+		}
+
+		private static void AddTableAlias(RawMapDecodeContext context, string kind, RawMapTableSummaryData table, string path)
+		{
+			if (table.LegacyTableId <= 0)
+				return;
+			context.AssetAliases.Add(new WorldSchemaAssetAliasSeed
+			{
+				Kind = kind,
+				LegacyId = table.LegacyTableId,
+				SourceKey = path + "#table:" + table.Index,
+			});
 		}
 	}
 }

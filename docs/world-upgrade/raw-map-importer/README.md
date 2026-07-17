@@ -79,8 +79,10 @@ Warning เหล่านี้ไม่ทำให้ decoder ล้ม แ�
 
 ## ขั้นถัดไป
 
-1. สร้าง world schema และ stable zone/cell/entity IDs จาก decoded records
-2. แยก output เป็น deterministic records ที่ diff และ migrate ได้
-3. กำหนด fallback สำหรับ orphan landscape data และ black splat pixels
-4. สร้าง world layout manifest
-5. เริ่ม single-zone runtime parity ก่อน cell streamer สอง zone
+1. ใช้ deterministic world schema ที่สร้างแล้วเป็น input ของ single-zone runtime parity
+2. โหลด California 2 terrain/collision/static objects ผ่าน cell bundles
+3. decode navigation, environment volumes และ hierarchy records เพิ่ม
+4. กำหนด runtime fallback สำหรับ orphan landscape data และ black splat pixels
+5. ตรวจ load/unload memory cycling ก่อน cell streamer สอง zone
+
+รายละเอียด schema, identity rules, migration policy และ output อยู่ใน [`docs/world-upgrade/world-schema/README.md`](../world-schema/README.md)

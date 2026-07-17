@@ -64,6 +64,15 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					context.AddWarning("MissingLandscapeSplatmap", "Landscape/Splatmaps", -1, "Heightmap tile " + tile.X + "," + tile.Y + " has no matching source splatmap.");
 				}
 				summary.Tiles.Add(tile);
+				context.EntitySeeds.Add(new WorldSchemaEntitySeed
+				{
+					Kind = "LandscapeTile",
+					SourceKey = "Landscape#tile:" + tile.X + ":" + tile.Y,
+					Position = new RawMapVector3Data(tile.X * LANDSCAPE_TILE_SIZE, 0f, tile.Y * LANDSCAPE_TILE_SIZE),
+					HasHeightmap = tile.HasHeightmap,
+					HasSplatmap = tile.HasSplatmap,
+					HasHoles = tile.HasHoles,
+				});
 			}
 		}
 
@@ -240,18 +249,19 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 					for (int index = 0; index < count; ++index)
 					{
 						RawMapVector3Data point = reader.ReadVector3();
-						reader.ReadVector3(); // Euler rotation
+						RawMapVector3Data rotation = reader.ReadVector3(); // Euler rotation
+						RawMapVector3Data scale = new RawMapVector3Data(1f, 1f, 1f);
 						if (summary.Version > 3)
-							reader.ReadVector3(); // scale
+							scale = reader.ReadVector3(); // scale
 						int legacyId = reader.ReadUInt16();
 						if (summary.Version > 5 && summary.Version < 10)
 							reader.ReadByteLengthUtf8String();
 						Guid guid = summary.Version > 7 ? reader.ReadUInt16LengthGuid() : Guid.Empty;
-						if (summary.Version > 6)
-							reader.ReadByte(); // placement origin
+						int placementOrigin = summary.Version > 6 ? reader.ReadByte() : 0;
+						uint instanceId = 0;
 						if (summary.Version > 8)
 						{
-							uint instanceId = reader.ReadUInt32();
+							instanceId = reader.ReadUInt32();
 							if (!instanceIds.Add(instanceId))
 								summary.DuplicateInstanceIdCount++;
 						}
@@ -264,6 +274,31 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 							reader.ReadBoolean();
 						if (legacyId == 0 && guid == Guid.Empty)
 							summary.EmptyAssetReferenceCount++;
+						string sourceKey = instanceId > 0
+							? "Level/Objects.dat#instance:" + instanceId
+							: "Level/Objects.dat#region:" + x + ":" + y + ":" + index;
+						context.EntitySeeds.Add(new WorldSchemaEntitySeed
+						{
+							Kind = "StaticObject",
+							SourceKey = sourceKey,
+							Position = point,
+							Rotation = rotation,
+							Scale = scale,
+							LegacyAssetId = legacyId,
+							AssetGuid = guid == Guid.Empty ? null : guid.ToString("N"),
+							SourceInstanceId = instanceId,
+							PlacementOrigin = placementOrigin,
+						});
+						if (legacyId > 0 || guid != Guid.Empty)
+						{
+							context.AssetAliases.Add(new WorldSchemaAssetAliasSeed
+							{
+								Kind = "ObjectAsset",
+								LegacyId = legacyId,
+								AssetGuid = guid == Guid.Empty ? null : guid.ToString("N"),
+								SourceKey = sourceKey,
+							});
+						}
 						RawMapDecodeContext.Include(summary.Bounds, point);
 						summary.ObjectCount++;
 					}

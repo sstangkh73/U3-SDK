@@ -14,6 +14,12 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 		public static RawMapDecodedSummaryData Decode(string zoneId, string displayName, string sourceRoot,
 			string sourceInventoryFingerprintSha256)
 		{
+			return DecodeDetailed(zoneId, displayName, sourceRoot, sourceInventoryFingerprintSha256).Summary;
+		}
+
+		internal static RawMapDetailedDecodeResult DecodeDetailed(string zoneId, string displayName, string sourceRoot,
+			string sourceInventoryFingerprintSha256)
+		{
 			if (string.IsNullOrWhiteSpace(zoneId))
 				throw new ArgumentException("Zone ID is required.", nameof(zoneId));
 			if (string.IsNullOrWhiteSpace(sourceRoot))
@@ -37,7 +43,12 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 			RawMapGeometryDecoder.DecodeAll(context);
 
 			summary.IsValid = !summary.Issues.Any(issue => string.Equals(issue.Severity, "Error", StringComparison.Ordinal));
-			return summary;
+			return new RawMapDetailedDecodeResult
+			{
+				Summary = summary,
+				EntitySeeds = context.EntitySeeds,
+				AssetAliases = context.AssetAliases,
+			};
 		}
 	}
 }

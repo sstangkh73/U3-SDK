@@ -13,11 +13,15 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 	{
 		public string SourceRoot { get; }
 		public RawMapDecodedSummaryData Summary { get; }
+		public System.Collections.Generic.List<WorldSchemaEntitySeed> EntitySeeds { get; }
+		public System.Collections.Generic.List<WorldSchemaAssetAliasSeed> AssetAliases { get; }
 
 		public RawMapDecodeContext(string sourceRoot, RawMapDecodedSummaryData summary)
 		{
 			SourceRoot = sourceRoot;
 			Summary = summary;
+			EntitySeeds = new System.Collections.Generic.List<WorldSchemaEntitySeed>();
+			AssetAliases = new System.Collections.Generic.List<WorldSchemaAssetAliasSeed>();
 		}
 
 		public string GetFullPath(string relativePath)

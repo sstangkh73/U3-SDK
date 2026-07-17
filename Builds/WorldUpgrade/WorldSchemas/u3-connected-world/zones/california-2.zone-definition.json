@@ -1,0 +1,3192 @@
+{
+  "SchemaVersion": 1,
+  "WorldId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+  "ZoneKey": "california-2",
+  "ZoneId": "zon_06b390352ad15923ee9575110f026be1",
+  "DisplayName": "California 2",
+  "LayoutOffset": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  },
+  "CellSize": 1024,
+  "LocalBounds": {
+    "HasValue": true,
+    "Min": {
+      "X": -4096.0,
+      "Y": -1024.0,
+      "Z": -6144.0
+    },
+    "Max": {
+      "X": 4096.0,
+      "Y": 1024.0,
+      "Z": 5120.0
+    }
+  },
+  "WorldBounds": {
+    "HasValue": true,
+    "Min": {
+      "X": -4096.0,
+      "Y": -1024.0,
+      "Z": -6144.0
+    },
+    "Max": {
+      "X": 4096.0,
+      "Y": 1024.0,
+      "Z": 5120.0
+    }
+  },
+  "SourceInventoryFingerprintSha256": "94bdfe59d2727f1a19d05d24a5b1ab89d17f029e6caca6831550c3c2e360489f",
+  "SourceDecodedSchemaVersion": 1,
+  "ContentFingerprintSha256": "fa53d9be9eda841b2291421c0c5cebbbe0bd4e2914660cae566997c8060524b0",
+  "EntityIdentityFingerprintSha256": "47c49df1268e9b753f7cb9602a368874b9ec4d898a81d09e823fac51de9dfafe",
+  "EntityCount": 101721,
+  "RecordCounts": [
+    {
+      "Kind": "AnimalSpawn",
+      "Count": 522
+    },
+    {
+      "Kind": "ItemSpawn",
+      "Count": 13491
+    },
+    {
+      "Kind": "LandscapeTile",
+      "Count": 55
+    },
+    {
+      "Kind": "PlayerSpawn",
+      "Count": 60
+    },
+    {
+      "Kind": "StaticObject",
+      "Count": 81392
+    },
+    {
+      "Kind": "VehicleSpawn",
+      "Count": 283
+    },
+    {
+      "Kind": "ZombieSpawn",
+      "Count": 5918
+    }
+  ],
+  "Cells": [
+    {
+      "CellId": "cel_f5ff5ba952624411687a7ba4d53e7d6d",
+      "GridX": -4,
+      "GridZ": -4,
+      "RelativePath": "cells/california-2/-4_-4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -4096.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": -3072.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -4096.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": -3072.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "EntityCount": 2410,
+      "EntityFingerprintSha256": "a66049afbf4430ad538767db8d7b29a108525dc3889d462f34d855188138c6f4",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 467
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1783
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 159
+        }
+      ]
+    },
+    {
+      "CellId": "cel_366e16c13ff90fbe6d4888ce2b4335a1",
+      "GridX": -4,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/-4_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -4096.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": -3072.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -4096.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": -3072.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 1179,
+      "EntityFingerprintSha256": "9898eb69e52d5290d188b5dc14cb6196e8058b0f9ded7a7280554e0b5a7c644b",
+      "HasLandscapeRecord": false,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": false,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 292
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 819
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 68
+        }
+      ]
+    },
+    {
+      "CellId": "cel_41ce9cc0e728a3036e1a1ee68d662378",
+      "GridX": -3,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/-3_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -3072.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": -2048.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -3072.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": -2048.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 29,
+      "EntityFingerprintSha256": "5dc5fdb26b02416370be66922adb7fc1dd7a8a21b4f7ff24988d54988f5b84d6",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 28
+        }
+      ]
+    },
+    {
+      "CellId": "cel_5493486ecd9bbe4cd43eba8c15bc75f6",
+      "GridX": -3,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/-3_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -3072.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": -2048.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -3072.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": -2048.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 13,
+      "EntityFingerprintSha256": "fef5adfb9ac09b4e960a87a3219025d0ef44dfbe117ccf5cf51d58a7d0789693",
+      "HasLandscapeRecord": false,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": false,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "StaticObject",
+          "Count": 13
+        }
+      ]
+    },
+    {
+      "CellId": "cel_26e3cfbc22ed09c698467c8a29ba1d4f",
+      "GridX": -2,
+      "GridZ": -3,
+      "RelativePath": "cells/california-2/-2_-3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "a843cbc424a28e908a76117a36632f6f0ac19d190a02519f7ded3b2e6b014ab5",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_d938d9c5a8cf52410287e588509d9dbc",
+      "GridX": -2,
+      "GridZ": -2,
+      "RelativePath": "cells/california-2/-2_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 2,
+      "EntityFingerprintSha256": "fa93ab237522fe1ff6f4f453ef08774684faadc57e4a4eb393d48bb56e154c4c",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_bfa76534d57fcbfc27d4b26607455d26",
+      "GridX": -2,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/-2_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 790,
+      "EntityFingerprintSha256": "08908e3a3e4409202c6dc7156b1f5ce94c2c1d2187047f7b49293fee3e4ba21a",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 789
+        }
+      ]
+    },
+    {
+      "CellId": "cel_cd422b836401ec92efba401ea2ba9b04",
+      "GridX": -2,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/-2_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 1594,
+      "EntityFingerprintSha256": "6a50ef57f7ad8ce2621e40e23cc0dec212ac790d2e2456c0a5d7dbc4bec5e531",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 243
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1278
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 1
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 71
+        }
+      ]
+    },
+    {
+      "CellId": "cel_4ff59743c68f3d5af81886833d2326d8",
+      "GridX": -2,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/-2_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 1329,
+      "EntityFingerprintSha256": "f06bd139f8039f06a8246ae76b9eabff4af248cbc31f38191450c9d077be3d33",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 183
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1145
+        }
+      ]
+    },
+    {
+      "CellId": "cel_ce66da87e3d512cd99d3e0173c1d931c",
+      "GridX": -2,
+      "GridZ": 2,
+      "RelativePath": "cells/california-2/-2_2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "EntityCount": 647,
+      "EntityFingerprintSha256": "26eb7391ee52a907863503c26603f56b3e7538507440dc6bdf09863e18b198a4",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 646
+        }
+      ]
+    },
+    {
+      "CellId": "cel_a38541a5d62b975cdadc736c03bb4da5",
+      "GridX": -2,
+      "GridZ": 3,
+      "RelativePath": "cells/california-2/-2_3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "EntityCount": 376,
+      "EntityFingerprintSha256": "b6d993ef7d68cbbad97769b6b0efd7f802c1bff3a3a41eae6d8cd00ccc364dcb",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 14
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 21
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 340
+        }
+      ]
+    },
+    {
+      "CellId": "cel_6ab0efabf2d034f0b82514e263b82bc0",
+      "GridX": -2,
+      "GridZ": 4,
+      "RelativePath": "cells/california-2/-2_4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "9e6484befcae665689a82aba07d75a4aa4af8315aac635b6d2894da04dff683c",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_94a00ae03827a6fa0eb9513ac93a55f7",
+      "GridX": -1,
+      "GridZ": -6,
+      "RelativePath": "cells/california-2/-1_-6.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -6144.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -6144.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "90dbb4a10427274ccc8bf5567d8f849358e6e68e2eff555806c0d52fa204b89e",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_a44c73cf03e28a3e570319e9fe805d8d",
+      "GridX": -1,
+      "GridZ": -3,
+      "RelativePath": "cells/california-2/-1_-3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "1b61bf04a3c459bd652d793c41104a7d85cdfd705b409c8d7d0d4fbfd6fb9fd4",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_1f4767f33092b2708e2d9559e040e3ba",
+      "GridX": -1,
+      "GridZ": -2,
+      "RelativePath": "cells/california-2/-1_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 807,
+      "EntityFingerprintSha256": "38d1f2ed9ce3299bb57def3cb7c8992b6267cceb5af96d41753a00744e711124",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 5
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 85
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 677
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 3
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 36
+        }
+      ]
+    },
+    {
+      "CellId": "cel_f0bb30178af6d3832cf492aa21e5b89e",
+      "GridX": -1,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/-1_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 3188,
+      "EntityFingerprintSha256": "ae7d6e74dcd477e3c333d4739651ddb41845b4fdbb7dc0a2660e57454b019236",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 5
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 519
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 16
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2276
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 16
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 355
+        }
+      ]
+    },
+    {
+      "CellId": "cel_2643293b14a66e1e65c98b01b2c6ee96",
+      "GridX": -1,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/-1_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 3912,
+      "EntityFingerprintSha256": "ed82299211c97479b2eac275cde7c69232df03fff07e232985ae05e90320cb46",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 11
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 679
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 13
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2919
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 18
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 271
+        }
+      ]
+    },
+    {
+      "CellId": "cel_23f453ffca5e2d7a89100f1233184a92",
+      "GridX": -1,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/-1_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 3486,
+      "EntityFingerprintSha256": "f818aff5314cfb77c188883c4d981bd0328718e87b9e5e514fdd5673a1fa1ed9",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 13
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 419
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2819
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 11
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 223
+        }
+      ]
+    },
+    {
+      "CellId": "cel_d60bb0241c11fb17a003e4cf666844f7",
+      "GridX": -1,
+      "GridZ": 2,
+      "RelativePath": "cells/california-2/-1_2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "EntityCount": 1786,
+      "EntityFingerprintSha256": "1e78c52cd8cc5c2cfd61dc0bf21fb588c0a7104eb4ae59377a8e3de9d7766843",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 25
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 35
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1725
+        }
+      ]
+    },
+    {
+      "CellId": "cel_39a89b3ca8f9e5a4db0b7c8af5210475",
+      "GridX": -1,
+      "GridZ": 3,
+      "RelativePath": "cells/california-2/-1_3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "EntityCount": 14370,
+      "EntityFingerprintSha256": "db72d7a5beb7e92c9c8c37c59a8731bd198cd80d4b0f00b2ad0ed342b62c66f9",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 25
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 2235
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 10
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 11013
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 82
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 1004
+        }
+      ]
+    },
+    {
+      "CellId": "cel_f06615063a333e0f7ec5c8d9c265da7b",
+      "GridX": -1,
+      "GridZ": 4,
+      "RelativePath": "cells/california-2/-1_4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "872579ec43d411c7debab0b485cf66cef894c0482982656baccb470322a35778",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_4133ef241b7e089ea916a42e2e0c1fe4",
+      "GridX": 0,
+      "GridZ": -4,
+      "RelativePath": "cells/california-2/0_-4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "EntityCount": 97,
+      "EntityFingerprintSha256": "540c28be2d84ecc327320868e204473476aad8ca163988fbf14bcaa113bbdee0",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 96
+        }
+      ]
+    },
+    {
+      "CellId": "cel_2e2fbe992f6e8b0fdd1b2b54152a70ee",
+      "GridX": 0,
+      "GridZ": -3,
+      "RelativePath": "cells/california-2/0_-3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "4cd097f8226dace79743b00f322a9d36628a4f06ecc7520a9b5ac63b5d2b36e8",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_b702bdc721c24e4795705d3af8ae16fa",
+      "GridX": 0,
+      "GridZ": -2,
+      "RelativePath": "cells/california-2/0_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 658,
+      "EntityFingerprintSha256": "2748bdff0f8dd757d81b938b065cbc5414ff1658c53884bb5aafda83ecd069aa",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 6
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 53
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 598
+        }
+      ]
+    },
+    {
+      "CellId": "cel_27304da69baa8cc061343672b73e53dd",
+      "GridX": 0,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/0_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 4362,
+      "EntityFingerprintSha256": "58b83ae7725beac780a9a8c50ce4dba3510677b94375153d8bac29f9f5741b6f",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 38
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 785
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 3105
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 20
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 413
+        }
+      ]
+    },
+    {
+      "CellId": "cel_5791cd5cee8d0d9df4b53d42144c464b",
+      "GridX": 0,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/0_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 8748,
+      "EntityFingerprintSha256": "cc9a9afc85fb7743508ea2538e0ffa78383d61ef7eef79ea775fd653555347e6",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 33
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 1444
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 6703
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 32
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 535
+        }
+      ]
+    },
+    {
+      "CellId": "cel_4ec7d294afe4f4cf07b965e45f239acc",
+      "GridX": 0,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/0_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 2159,
+      "EntityFingerprintSha256": "690bcf220f1906c0d56d60b981a9e2ce1e8c2e3f67cd9cdf95a5fe36d216f041",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 35
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 54
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2067
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "CellId": "cel_1b4c612c644741d95b654564e8e50deb",
+      "GridX": 0,
+      "GridZ": 2,
+      "RelativePath": "cells/california-2/0_2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "EntityCount": 2559,
+      "EntityFingerprintSha256": "b1fb6f9951fcda13fab18d53a20c63450e4ee03f15dbb0bea096fd9e435b7e9a",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 30
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 227
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2189
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 3
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 109
+        }
+      ]
+    },
+    {
+      "CellId": "cel_1ec4cea177b98be2db6f376aedfdeeff",
+      "GridX": 0,
+      "GridZ": 3,
+      "RelativePath": "cells/california-2/0_3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "EntityCount": 3529,
+      "EntityFingerprintSha256": "6f8c2849863cc4e71f2b15313a15b29197f02baf96be24a82b2efb8afbea2eca",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 25
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 540
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2778
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 9
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 176
+        }
+      ]
+    },
+    {
+      "CellId": "cel_61c2705b99acb488b684d1d7ff1ee40f",
+      "GridX": 0,
+      "GridZ": 4,
+      "RelativePath": "cells/california-2/0_4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "898c86b774585ef77610a6864ea3dab0dbee12a0dcd7dbc0a849357107e8b7a8",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_812a96cd518672a4743786b6767e8554",
+      "GridX": 1,
+      "GridZ": -3,
+      "RelativePath": "cells/california-2/1_-3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "EntityCount": 2,
+      "EntityFingerprintSha256": "be213f66c2f3d7bd60d78e85d6f24cf5592fa1d745200ad271a1cc43c49e6335",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_e17d98ef8bfe48ffe188e0588e8eaf0a",
+      "GridX": 1,
+      "GridZ": -2,
+      "RelativePath": "cells/california-2/1_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 2414,
+      "EntityFingerprintSha256": "79d931014bf31fe994f45286b32fff05e442d52e5b848ab45696ed2b85358261",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 18
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 273
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1967
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 8
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 147
+        }
+      ]
+    },
+    {
+      "CellId": "cel_a269dd57a9fdf59b0586bd8df51833c1",
+      "GridX": 1,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/1_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 3337,
+      "EntityFingerprintSha256": "4f965b79a003abf5dceb73bb6852792b447bcb5a761726e3aa5ec9402e85542c",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 25
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 426
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2671
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 13
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 201
+        }
+      ]
+    },
+    {
+      "CellId": "cel_8d0deb53177bad1f7b862aa47e60aa69",
+      "GridX": 1,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/1_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 4708,
+      "EntityFingerprintSha256": "cdac378d25dd2a803f64034d042f756b2b31cb027902a5a99a9ddf7e75de9871",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 26
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 711
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 3601
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 10
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 359
+        }
+      ]
+    },
+    {
+      "CellId": "cel_87bd4afae5e64b8db8c92e9175b5803b",
+      "GridX": 1,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/1_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 3710,
+      "EntityFingerprintSha256": "7fbb2d18a275cc8d2c33103cc8804d1ba731da0a5e6ebfdb8089cfe743ef79d3",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 21
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 337
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 3163
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 7
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 181
+        }
+      ]
+    },
+    {
+      "CellId": "cel_99e79667495ac75c6123f7f6e98621fe",
+      "GridX": 1,
+      "GridZ": 2,
+      "RelativePath": "cells/california-2/1_2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "EntityCount": 3483,
+      "EntityFingerprintSha256": "7397d3467c70c1d922fd337a2381f51efac24e510d150720c2cfebf9d8b48700",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 43
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 313
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2991
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 9
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 126
+        }
+      ]
+    },
+    {
+      "CellId": "cel_7c66d8d7bb840bc74898c484c43ddfcb",
+      "GridX": 1,
+      "GridZ": 3,
+      "RelativePath": "cells/california-2/1_3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "EntityCount": 3375,
+      "EntityFingerprintSha256": "ac9413260a1cdc73840c49912baa45cc61320ebfa725afc135bbfc761960b08c",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 35
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 390
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2721
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 13
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 215
+        }
+      ]
+    },
+    {
+      "CellId": "cel_ae3da997485eefc1521eb0d849fff412",
+      "GridX": 1,
+      "GridZ": 4,
+      "RelativePath": "cells/california-2/1_4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "8bf6a133ecefceee709c01a8b94faf52f7e21a8d8c1e977b8be781cb97ee28a7",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_631d55f1dfb1fa85ccc2f4c9b6de7daa",
+      "GridX": 2,
+      "GridZ": -6,
+      "RelativePath": "cells/california-2/2_-6.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -6144.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -6144.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "75f5287b41fcc0c76be33088d8c15e7436ee24a3b0a56e75741114f864c25ef3",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_032732066663160c9bb8d31ae734659e",
+      "GridX": 2,
+      "GridZ": -4,
+      "RelativePath": "cells/california-2/2_-4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "e1247483a6ae2223db05de7a3f52f2155ac8474c544cdad3d8d0a0293252a707",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_99a2d8f3a76ae6317c91ff55519687c2",
+      "GridX": 2,
+      "GridZ": -3,
+      "RelativePath": "cells/california-2/2_-3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "e56f28581c20e7cbbd1327ac60bcc067af28937117d6fe0faa68a579f43bba8e",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_4af7315e08974c252c909eb5228dfcc1",
+      "GridX": 2,
+      "GridZ": -2,
+      "RelativePath": "cells/california-2/2_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 1802,
+      "EntityFingerprintSha256": "192136c9f48d1ec141630f6c83fb881d9c12947eca0fe8e378ca87cf66184944",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 3
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 322
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1357
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 4
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 115
+        }
+      ]
+    },
+    {
+      "CellId": "cel_b7b897c005ade6503914bfe5dfd26fe5",
+      "GridX": 2,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/2_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 2912,
+      "EntityFingerprintSha256": "5c9b5a13d098cbd22bea95c18674e8bbab205170bfddf14293cc3983cc8fbfcc",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 20
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 621
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2020
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 16
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 234
+        }
+      ]
+    },
+    {
+      "CellId": "cel_ad7a344d2ec3cd805feb1960046598b2",
+      "GridX": 2,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/2_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 2128,
+      "EntityFingerprintSha256": "aad3c60400d5bc73fd321b7cf8b958614b6b8fd8910511f7b27e6fab4ee16c23",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 13
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 241
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1818
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 1
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 54
+        }
+      ]
+    },
+    {
+      "CellId": "cel_392b0b17ef62fcd05e2dd873db70933e",
+      "GridX": 2,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/2_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 1707,
+      "EntityFingerprintSha256": "371476531561f06290a783af9b4e6be75204795ce9720e6ee50dc3532004a355",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 17
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 59
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1591
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 3
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 36
+        }
+      ]
+    },
+    {
+      "CellId": "cel_f9c19376ca871d92f51314e7b4ae92f3",
+      "GridX": 2,
+      "GridZ": 2,
+      "RelativePath": "cells/california-2/2_2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "EntityCount": 872,
+      "EntityFingerprintSha256": "d5408fba964ecf2849754a252b81cac33aad16a2adc3d2a1610a519bcb471766",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 14
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 68
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 727
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 2
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 60
+        }
+      ]
+    },
+    {
+      "CellId": "cel_88b81d736bcd3eb022ae9a42bbe629ec",
+      "GridX": 2,
+      "GridZ": 3,
+      "RelativePath": "cells/california-2/2_3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "EntityCount": 1205,
+      "EntityFingerprintSha256": "f079a711db615f9e26505302275e94533de9be91ace89835363560c4e8cc02c3",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 36
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 21
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1133
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 14
+        }
+      ]
+    },
+    {
+      "CellId": "cel_d968bddc9ef2841a64eac187172ad450",
+      "GridX": 2,
+      "GridZ": 4,
+      "RelativePath": "cells/california-2/2_4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "583461d53d691e0fbbb048c2fb2fd2852dad61e66b8a7219c61e29773e56e7ce",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_6d21f9c4aea0cf3aa8648a117d4ebec4",
+      "GridX": 3,
+      "GridZ": -4,
+      "RelativePath": "cells/california-2/3_-4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -4096.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": -3072.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "ba857b2f5d2b49071a30d2a8fe3bc9a31b8d6104eb0d85de36e9c8c0a29fc5aa",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_9dc93b798f7e7d6f3cc708b43eae063f",
+      "GridX": 3,
+      "GridZ": -3,
+      "RelativePath": "cells/california-2/3_-3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -3072.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": -2048.0
+        }
+      },
+      "EntityCount": 4586,
+      "EntityFingerprintSha256": "25868ddb3ddfa52276a85d75a2cc0d5fcdfeca7d337fe1be3573a2ba71698ab6",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 445
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 3867
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 273
+        }
+      ]
+    },
+    {
+      "CellId": "cel_17879fb9589843a2b3378bdc87400a15",
+      "GridX": 3,
+      "GridZ": -2,
+      "RelativePath": "cells/california-2/3_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 892,
+      "EntityFingerprintSha256": "56e0484213a007744cd488e1357ec791e3e6836cfd98ed6b2daf4db99a90f112",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 891
+        }
+      ]
+    },
+    {
+      "CellId": "cel_f88898209db50263b904a4332665beff",
+      "GridX": 3,
+      "GridZ": -1,
+      "RelativePath": "cells/california-2/3_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 374,
+      "EntityFingerprintSha256": "7e6c5c42e0b743cc71de095e3ae439df2eb5dcace5f993e204ed19a453b8826d",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 373
+        }
+      ]
+    },
+    {
+      "CellId": "cel_097eef4feae06bb7cbdd94337d50fa3f",
+      "GridX": 3,
+      "GridZ": 0,
+      "RelativePath": "cells/california-2/3_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 1654,
+      "EntityFingerprintSha256": "974b58f9f3b61ece37469eec139befda88f403f05a84a7e39af1f034661a3fe4",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 314
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1240
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 99
+        }
+      ]
+    },
+    {
+      "CellId": "cel_a6c1d8920f879e69b15c278c89f077ae",
+      "GridX": 3,
+      "GridZ": 1,
+      "RelativePath": "cells/california-2/3_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 2711,
+      "EntityFingerprintSha256": "ae2f617a3c3f17ffa8a94738ab340a507b7203341167e7ee795846b2548f5351",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 304
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 2148
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 258
+        }
+      ]
+    },
+    {
+      "CellId": "cel_9f5e4ff2c4bbf4f36d646bc896645835",
+      "GridX": 3,
+      "GridZ": 2,
+      "RelativePath": "cells/california-2/3_2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 2048.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 3072.0
+        }
+      },
+      "EntityCount": 14,
+      "EntityFingerprintSha256": "eaecd0684a42897690c53bfccadfee27c61ab48bfff6f22ac6fc9643129aace1",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 13
+        }
+      ]
+    },
+    {
+      "CellId": "cel_e2809050c1141e3e0b0054be85658172",
+      "GridX": 3,
+      "GridZ": 3,
+      "RelativePath": "cells/california-2/3_3.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 3072.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 4096.0
+        }
+      },
+      "EntityCount": 1791,
+      "EntityFingerprintSha256": "7e6c94e3f2d561aba2e10b5e0ff813a0078c9335cce4fcedf254daa5f7007743",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 372
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1292
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 126
+        }
+      ]
+    },
+    {
+      "CellId": "cel_22b46343f3075b494b6535a9ac8a124f",
+      "GridX": 3,
+      "GridZ": 4,
+      "RelativePath": "cells/california-2/3_4.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 3072.0,
+          "Y": -1024.0,
+          "Z": 4096.0
+        },
+        "Max": {
+          "X": 4096.0,
+          "Y": 1024.0,
+          "Z": 5120.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "66808a05ba4f0f7bba63fbf734500aa81aaea5d8d56cac7a576de80bc9a9df72",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    }
+  ]
+}

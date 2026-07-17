@@ -59,9 +59,24 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 				}
 			}
 
+			if (GUILayout.Button("Generate Deterministic World Schema", GUILayout.Height(32.0f)))
+			{
+				try
+				{
+					WorldSchemaGenerator.GenerateConfiguredWorldSchema();
+					ShowNotification(new GUIContent("World schema generated"));
+				}
+				catch (Exception exception)
+				{
+					Debug.LogException(exception);
+					EditorUtility.DisplayDialog("World Schema Generation Failed", exception.Message, "OK");
+				}
+			}
+
 			EditorGUILayout.Space();
 			EditorGUILayout.LabelField("Import boundary", EditorStyles.boldLabel);
 			EditorGUILayout.LabelField("Decoded in phase 1: spawn tables/points, landscape tiles, objects, roads, hierarchy", EditorStyles.wordWrappedLabel);
+			EditorGUILayout.LabelField("Schema in phase 2: deterministic world/zone/cell/entity IDs, owner cells, migration aliases", EditorStyles.wordWrappedLabel);
 			EditorGUILayout.LabelField("Inventory only: remaining environment and navigation formats", EditorStyles.wordWrappedLabel);
 			EditorGUILayout.LabelField("Reference only: legacy item, zombie, difficulty, survival, vehicle, event rules", EditorStyles.wordWrappedLabel);
 		}
