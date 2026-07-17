@@ -218,7 +218,7 @@ estimated bytes เป็น deterministic logical estimate ของ deserializ
 | cell load/unload ซ้ำ | ผ่าน | 5 รอบ final residency 0 |
 | World Asset Registry/reference counting | ผ่าน | unit test + runtime peak 1, final 0 |
 | full repository regression | ผ่าน | 1,346/1,346 |
-| code/report บน GitHub | รอ metadata commit | จะอัปเดตหลัง push |
+| code/report บน GitHub | ผ่าน | implementation/report commit `cb745fa`, Draft PR #1 |
 
 ## 11. ข้อจำกัดที่ยังเหลือ
 
