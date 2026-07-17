@@ -2,8 +2,12 @@
 
 **วันที่ทดสอบ:** 18 กรกฎาคม 2026  
 **Branch:** `codex/world-travel-mvp`  
-**ผล gate:** ผ่านการตรวจในเครื่อง  
+**ผล gate:** ผ่านและเผยแพร่แล้ว  
 **ขอบเขต:** World Travel MVP, Raw Map Importer, generated manifests, system audit และเอกสารแผนงาน
+
+**Baseline commit:** [`41bb305`](https://github.com/sstangkh73/U3-SDK/commit/41bb305)  
+**Remote branch:** `sstangkh73/U3-SDK:codex/world-travel-mvp`  
+**Draft PR:** [sstangkh73/U3-SDK#1](https://github.com/sstangkh73/U3-SDK/pull/1)  
 
 ## 1. วัตถุประสงค์
 
@@ -117,9 +121,8 @@ Batch log ถูกเก็บใน `Logs/phase0-unity-batch.log` ซึ่ง
 | Importer สร้าง manifest ครบ | ผ่าน |
 | JSON/safety validation ผ่าน | ผ่าน |
 | มีรายงานข้อจำกัดและหลักฐาน | ผ่าน |
-| มี baseline บน GitHub | รอเติม commit/PR metadata หลัง push |
+| มี baseline บน GitHub | ผ่าน — commit `41bb305`, Draft PR #1 |
 
 ## 8. ข้อสรุป
 
-Baseline พร้อมสำหรับ commit และเผยแพร่แล้ว ระยะ 1 สามารถเริ่มจากการสร้าง binary decoders และ automated validators โดยอ้าง schema, source catalog และ manifest ที่ตรวจในระยะนี้
-
+Baseline ถูก commit และ push ไปยัง fork ของผู้ใช้แล้ว พร้อม Draft PR สำหรับติดตาม diff ระยะ 1 สามารถเริ่มจากการสร้าง binary decoders และ automated validators โดยอ้าง schema, source catalog และ manifest ที่ตรวจในระยะนี้

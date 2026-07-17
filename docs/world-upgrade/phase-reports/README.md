@@ -4,8 +4,8 @@
 
 | ระยะ | รายงาน | สถานะ |
 |---:|---|---|
-| 0 | [Baseline และการปกป้องงาน](phase-0-baseline-2026-07-18.th.md) | ผ่านการตรวจในเครื่อง; รอ metadata หลัง push |
-| 1 | Binary decoders และ validation | ยังไม่เริ่ม |
+| 0 | [Baseline และการปกป้องงาน](phase-0-baseline-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว |
+| 1 | Binary decoders และ validation | กำลังดำเนินการ |
 | 2 | World schema และ stable identity | ยังไม่เริ่ม |
 | 3 | Single-zone runtime parity | ยังไม่เริ่ม |
 | 4 | Two-zone streaming prototype | ยังไม่เริ่ม |
@@ -20,4 +20,3 @@
 - ต้องบันทึกหลักฐาน ผลลัพธ์ ข้อผิดพลาด และข้อจำกัด
 - ห้ามใช้ผลของระยะก่อนหน้าเป็นหลักฐานแทนสิ่งที่ระยะปัจจุบันยังไม่ได้ทดสอบ
 - ถ้าเกิดปัญหาระหว่างระยะ ให้เขียน issue/incident section และแก้หรือประกาศ blocker ก่อนผ่าน gate
-
