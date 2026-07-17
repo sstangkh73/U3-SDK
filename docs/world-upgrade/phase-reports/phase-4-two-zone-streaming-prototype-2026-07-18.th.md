@@ -169,7 +169,7 @@ integration รุ่นแรกพบ physical misses 8/33 เพราะ cen
 | navigation stream | ยังไม่ผ่าน | schema ไม่มี nav records; warning ชัดเจน |
 | manual player/vehicle traversal | ยังไม่ผ่าน | deterministic probe เท่านั้น |
 | full regression | ผ่าน | 1,349/1,349 |
-| code/report บน GitHub | รอ metadata commit | อัปเดตหลัง push |
+| code/report บน GitHub | ผ่าน | implementation/report commit `190e15f`, Draft PR #1 |
 
 ## 8. ข้อจำกัด
 
