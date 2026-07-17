@@ -10,7 +10,7 @@
 | 3 | [Single-zone runtime parity](phase-3-single-zone-runtime-parity-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว — `cb745fa` |
 | 4 | [Two-zone streaming prototype](phase-4-two-zone-streaming-prototype-2026-07-18.th.md) | ผ่าน automated prototype gate และเผยแพร่แล้ว — `190e15f` |
 | 5 | [Population, economy และ persistence foundation](phase-5-population-persistence-foundation-2026-07-18.th.md) | ผ่าน automated data-foundation gate และเผยแพร่แล้ว — `5efe724` |
-| 6 | Environment, presentation และการขยายแมพ | ยังไม่เริ่ม |
+| 6 | [Environment, presentation และ expansion foundation](phase-6-environment-expansion-foundation-2026-07-18.th.md) | ผ่าน automated foundation; production expansion gate ยังปิด |
 | 7 | Multiplayer และ production hardening | ยังไม่เริ่ม |
 
 ## กติกา gate
@@ -27,3 +27,4 @@
 - [Phase 3-001: Runtime validation harness](phase-3-incident-001-runtime-validation-harness-2026-07-18.th.md)
 - [Phase 3-002: Hierarchy landscape authority](phase-3-incident-002-hierarchy-landscape-authority-2026-07-18.th.md)
 - [Phase 4-001: Transition collision gaps](phase-4-incident-001-transition-collision-gaps-2026-07-18.th.md)
+- [Phase 6-001: Endpoint float comparison false negative](phase-6-incident-001-endpoint-float-comparison-2026-07-18.th.md)
