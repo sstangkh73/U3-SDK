@@ -7,7 +7,6 @@
 | 0 | [Baseline และการปกป้องงาน](phase-0-baseline-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว |
 | 1 | [Binary decoders และ validation](phase-1-binary-decoders-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว — `b9c5c19` |
 | 2 | Deterministic world schema และ stable identity | กำลังดำเนินการ |
-| 2 | World schema และ stable identity | ยังไม่เริ่ม |
 | 3 | Single-zone runtime parity | ยังไม่เริ่ม |
 | 4 | Two-zone streaming prototype | ยังไม่เริ่ม |
 | 5 | Population, economy และ persistence | ยังไม่เริ่ม |
