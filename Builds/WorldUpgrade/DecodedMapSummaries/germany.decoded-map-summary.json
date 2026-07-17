@@ -1,0 +1,1673 @@
+{
+  "SchemaVersion": 1,
+  "ZoneId": "germany",
+  "DisplayName": "Germany",
+  "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/Germany",
+  "SourceInventoryFingerprintSha256": "33fabf22be87c9c08c43ada63c34c6b618d8d29dbb0b2dac0d039372693577c9",
+  "GeneratedUtc": "2026-07-17T19:12:33.9789364Z",
+  "IsValid": true,
+  "SpawnFiles": [
+    {
+      "RelativePath": "Spawns/Items.dat",
+      "Present": true,
+      "ContentSha256": "9e710e3185595ff43b8beab20b7c93a050ab10f115511ee1704fc66a9a8a74f0",
+      "Version": 4,
+      "FileSizeInBytes": 532,
+      "BytesConsumed": 532,
+      "TrailingBytes": 0,
+      "TableCount": 32,
+      "SpawnPointCount": 0,
+      "RegionsWithSpawnPoints": 0,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": false,
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "Tables": [
+        {
+          "Index": 0,
+          "UniqueId": 0,
+          "Name": "Police_Low_Peaks",
+          "LegacyTableId": 693,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 1,
+          "UniqueId": 0,
+          "Name": "Police_High_Peaks",
+          "LegacyTableId": 694,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 2,
+          "UniqueId": 0,
+          "Name": "Military_Low_Peaks",
+          "LegacyTableId": 695,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 3,
+          "UniqueId": 0,
+          "Name": "Military_High_Peaks",
+          "LegacyTableId": 696,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 4,
+          "UniqueId": 0,
+          "Name": "Special_Low_Peaks",
+          "LegacyTableId": 697,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 5,
+          "UniqueId": 0,
+          "Name": "Special_High_Peaks",
+          "LegacyTableId": 698,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 6,
+          "UniqueId": 0,
+          "Name": "Fire",
+          "LegacyTableId": 699,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 7,
+          "UniqueId": 0,
+          "Name": "Medic",
+          "LegacyTableId": 700,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 8,
+          "UniqueId": 0,
+          "Name": "School",
+          "LegacyTableId": 701,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 9,
+          "UniqueId": 0,
+          "Name": "Food",
+          "LegacyTableId": 702,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 10,
+          "UniqueId": 0,
+          "Name": "Gas",
+          "LegacyTableId": 703,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 11,
+          "UniqueId": 0,
+          "Name": "Construction",
+          "LegacyTableId": 704,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 12,
+          "UniqueId": 0,
+          "Name": "Camp",
+          "LegacyTableId": 705,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 13,
+          "UniqueId": 0,
+          "Name": "Prison",
+          "LegacyTableId": 706,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 14,
+          "UniqueId": 0,
+          "Name": "Chef",
+          "LegacyTableId": 707,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 15,
+          "UniqueId": 0,
+          "Name": "Botanist",
+          "LegacyTableId": 708,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 16,
+          "UniqueId": 0,
+          "Name": "Farm",
+          "LegacyTableId": 709,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 17,
+          "UniqueId": 0,
+          "Name": "Syndicate",
+          "LegacyTableId": 710,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 18,
+          "UniqueId": 0,
+          "Name": "Guns_Peaks",
+          "LegacyTableId": 711,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 19,
+          "UniqueId": 0,
+          "Name": "Kitchen",
+          "LegacyTableId": 712,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 20,
+          "UniqueId": 0,
+          "Name": "Post",
+          "LegacyTableId": 713,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 21,
+          "UniqueId": 0,
+          "Name": "Civilian_Peaks",
+          "LegacyTableId": 714,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 22,
+          "UniqueId": 0,
+          "Name": "Doughnut",
+          "LegacyTableId": 715,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 23,
+          "UniqueId": 0,
+          "Name": "Pizza",
+          "LegacyTableId": 716,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 24,
+          "UniqueId": 0,
+          "Name": "Airport_Peaks",
+          "LegacyTableId": 717,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 25,
+          "UniqueId": 0,
+          "Name": "Mine",
+          "LegacyTableId": 719,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 26,
+          "UniqueId": 0,
+          "Name": "Beach",
+          "LegacyTableId": 720,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 27,
+          "UniqueId": 0,
+          "Name": "Cloth",
+          "LegacyTableId": 721,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 28,
+          "UniqueId": 0,
+          "Name": "Coalition_Low_Peaks",
+          "LegacyTableId": 722,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 29,
+          "UniqueId": 0,
+          "Name": "Coalition_High_Peaks",
+          "LegacyTableId": 723,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 30,
+          "UniqueId": 0,
+          "Name": "Oktoberfest",
+          "LegacyTableId": 797,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 31,
+          "UniqueId": 0,
+          "Name": "Library",
+          "LegacyTableId": 909,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        }
+      ]
+    },
+    {
+      "RelativePath": "Spawns/Jars.dat",
+      "Present": true,
+      "ContentSha256": "9b9505d37ed42f954d407e5dc287c8bbdbc1cb834f16705925d15a94bc2ad2ba",
+      "Version": 4,
+      "FileSizeInBytes": 64652,
+      "BytesConsumed": 64652,
+      "TrailingBytes": 0,
+      "TableCount": 0,
+      "SpawnPointCount": 4343,
+      "RegionsWithSpawnPoints": 92,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1691.39063,
+          "Y": 27.501709,
+          "Z": -1876.879
+        },
+        "Max": {
+          "X": 1871.90967,
+          "Y": 342.7488,
+          "Z": 1906.99524
+        }
+      },
+      "Tables": []
+    },
+    {
+      "RelativePath": "Spawns/Zombies.dat",
+      "Present": true,
+      "ContentSha256": "48596472ac1cfda0fcc807b5d94612b201e1b31afee6ea47cdfca429bb7ad152",
+      "Version": 10,
+      "FileSizeInBytes": 1479,
+      "BytesConsumed": 1479,
+      "TrailingBytes": 0,
+      "TableCount": 23,
+      "SpawnPointCount": 0,
+      "RegionsWithSpawnPoints": 0,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": false,
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "Tables": [
+        {
+          "Index": 0,
+          "UniqueId": 1,
+          "Name": "Police_Low_Peaks",
+          "LegacyTableId": 693,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 1,
+          "UniqueId": 2,
+          "Name": "Police_High_Peaks",
+          "LegacyTableId": 694,
+          "TierCount": 4,
+          "EntryCount": 4,
+          "IsMega": false
+        },
+        {
+          "Index": 2,
+          "UniqueId": 3,
+          "Name": "Military_Low_Peaks",
+          "LegacyTableId": 695,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 3,
+          "UniqueId": 4,
+          "Name": "Military_High_Peaks",
+          "LegacyTableId": 696,
+          "TierCount": 4,
+          "EntryCount": 4,
+          "IsMega": false
+        },
+        {
+          "Index": 4,
+          "UniqueId": 5,
+          "Name": "Special_Low_Peaks",
+          "LegacyTableId": 697,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": true
+        },
+        {
+          "Index": 5,
+          "UniqueId": 6,
+          "Name": "Special_High_Peaks",
+          "LegacyTableId": 698,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": true
+        },
+        {
+          "Index": 6,
+          "UniqueId": 7,
+          "Name": "Fire",
+          "LegacyTableId": 699,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 7,
+          "UniqueId": 8,
+          "Name": "Medic",
+          "LegacyTableId": 700,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": false
+        },
+        {
+          "Index": 8,
+          "UniqueId": 9,
+          "Name": "Construction",
+          "LegacyTableId": 704,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 9,
+          "UniqueId": 10,
+          "Name": "Camp",
+          "LegacyTableId": 705,
+          "TierCount": 4,
+          "EntryCount": 4,
+          "IsMega": false
+        },
+        {
+          "Index": 10,
+          "UniqueId": 11,
+          "Name": "Prison",
+          "LegacyTableId": 706,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": false
+        },
+        {
+          "Index": 11,
+          "UniqueId": 12,
+          "Name": "Chef",
+          "LegacyTableId": 707,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 12,
+          "UniqueId": 13,
+          "Name": "Farm",
+          "LegacyTableId": 709,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 13,
+          "UniqueId": 14,
+          "Name": "Syndicate",
+          "LegacyTableId": 710,
+          "TierCount": 4,
+          "EntryCount": 21,
+          "IsMega": false
+        },
+        {
+          "Index": 14,
+          "UniqueId": 15,
+          "Name": "Civilian_Peaks",
+          "LegacyTableId": 714,
+          "TierCount": 4,
+          "EntryCount": 13,
+          "IsMega": false
+        },
+        {
+          "Index": 15,
+          "UniqueId": 16,
+          "Name": "Food",
+          "LegacyTableId": 702,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": false
+        },
+        {
+          "Index": 16,
+          "UniqueId": 17,
+          "Name": "Gas",
+          "LegacyTableId": 703,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": false
+        },
+        {
+          "Index": 17,
+          "UniqueId": 18,
+          "Name": "Fishers",
+          "LegacyTableId": 705,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 18,
+          "UniqueId": 19,
+          "Name": "Pilot",
+          "LegacyTableId": 717,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        },
+        {
+          "Index": 19,
+          "UniqueId": 20,
+          "Name": "Coalition_Low_Peaks",
+          "LegacyTableId": 722,
+          "TierCount": 4,
+          "EntryCount": 5,
+          "IsMega": false
+        },
+        {
+          "Index": 20,
+          "UniqueId": 21,
+          "Name": "Coalition_High_Peaks",
+          "LegacyTableId": 723,
+          "TierCount": 4,
+          "EntryCount": 6,
+          "IsMega": false
+        },
+        {
+          "Index": 21,
+          "UniqueId": 22,
+          "Name": "Oktoberfest",
+          "LegacyTableId": 797,
+          "TierCount": 4,
+          "EntryCount": 2,
+          "IsMega": false
+        },
+        {
+          "Index": 22,
+          "UniqueId": 23,
+          "Name": "Kaiser",
+          "LegacyTableId": 698,
+          "TierCount": 4,
+          "EntryCount": 3,
+          "IsMega": false
+        }
+      ]
+    },
+    {
+      "RelativePath": "Spawns/Animals.dat",
+      "Present": true,
+      "ContentSha256": "91c401a1e367c97830ddf857e97c7573ded6813ae02857c1692d292deb1392aa",
+      "Version": 1,
+      "FileSizeInBytes": 33608,
+      "BytesConsumed": 33608,
+      "TrailingBytes": 0,
+      "TableCount": 0,
+      "SpawnPointCount": 1955,
+      "RegionsWithSpawnPoints": 93,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2979.42163,
+          "Y": 27.501709,
+          "Z": -1881.59106
+        },
+        "Max": {
+          "X": 1880.20569,
+          "Y": 499.7473,
+          "Z": 3009.70581
+        }
+      },
+      "Tables": []
+    },
+    {
+      "RelativePath": "Spawns/Fauna.dat",
+      "Present": true,
+      "ContentSha256": "ece9bc145a13e5617a71b55ae972572cad9a51b54f1e3caaf843eeff086d4659",
+      "Version": 3,
+      "FileSizeInBytes": 1575,
+      "BytesConsumed": 1575,
+      "TrailingBytes": 0,
+      "TableCount": 1,
+      "SpawnPointCount": 120,
+      "RegionsWithSpawnPoints": 0,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1402.19141,
+          "Y": 42.7984619,
+          "Z": -1757.83972
+        },
+        "Max": {
+          "X": 1797.47,
+          "Y": 124.165649,
+          "Z": 1847.18091
+        }
+      },
+      "Tables": [
+        {
+          "Index": 0,
+          "UniqueId": 0,
+          "Name": "Wild",
+          "LegacyTableId": 691,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        }
+      ]
+    },
+    {
+      "RelativePath": "Spawns/Vehicles.dat",
+      "Present": true,
+      "ContentSha256": "67dcb5d7311be7de540b1b6313230015d07f7bb608416ea7aea0c5be3195922f",
+      "Version": 4,
+      "FileSizeInBytes": 1659,
+      "BytesConsumed": 1659,
+      "TrailingBytes": 0,
+      "TableCount": 23,
+      "SpawnPointCount": 90,
+      "RegionsWithSpawnPoints": 0,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1651.2666,
+          "Y": 27.501709,
+          "Z": -1861.66687
+        },
+        "Max": {
+          "X": 1859.64014,
+          "Y": 200.6554,
+          "Z": 1883.89624
+        }
+      },
+      "Tables": [
+        {
+          "Index": 0,
+          "UniqueId": 0,
+          "Name": "Police",
+          "LegacyTableId": 724,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 1,
+          "UniqueId": 0,
+          "Name": "Police_Heli",
+          "LegacyTableId": 725,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 2,
+          "UniqueId": 0,
+          "Name": "Military_Low_Peaks",
+          "LegacyTableId": 726,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 3,
+          "UniqueId": 0,
+          "Name": "Military_High_Peaks",
+          "LegacyTableId": 728,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 4,
+          "UniqueId": 0,
+          "Name": "Military_Peaks_Plane",
+          "LegacyTableId": 730,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 5,
+          "UniqueId": 0,
+          "Name": "Military_Peaks_Heli",
+          "LegacyTableId": 732,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 6,
+          "UniqueId": 0,
+          "Name": "Civilian_Peaks",
+          "LegacyTableId": 734,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 7,
+          "UniqueId": 0,
+          "Name": "Fire",
+          "LegacyTableId": 736,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 8,
+          "UniqueId": 0,
+          "Name": "Medic",
+          "LegacyTableId": 737,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 9,
+          "UniqueId": 0,
+          "Name": "Farm",
+          "LegacyTableId": 738,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 10,
+          "UniqueId": 0,
+          "Name": "Transit",
+          "LegacyTableId": 739,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 11,
+          "UniqueId": 0,
+          "Name": "Runabout",
+          "LegacyTableId": 740,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 12,
+          "UniqueId": 0,
+          "Name": "Dinghy",
+          "LegacyTableId": 741,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 13,
+          "UniqueId": 0,
+          "Name": "Jetski",
+          "LegacyTableId": 742,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 14,
+          "UniqueId": 0,
+          "Name": "Airport",
+          "LegacyTableId": 743,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 15,
+          "UniqueId": 0,
+          "Name": "Airport_Plane",
+          "LegacyTableId": 744,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 16,
+          "UniqueId": 0,
+          "Name": "Military_Peaks_Tank",
+          "LegacyTableId": 745,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 17,
+          "UniqueId": 0,
+          "Name": "Prison",
+          "LegacyTableId": 747,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 18,
+          "UniqueId": 0,
+          "Name": "Coalition",
+          "LegacyTableId": 749,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 19,
+          "UniqueId": 0,
+          "Name": "Mine",
+          "LegacyTableId": 751,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 20,
+          "UniqueId": 0,
+          "Name": "Military_Peaks_Jet",
+          "LegacyTableId": 753,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 21,
+          "UniqueId": 0,
+          "Name": "Otter",
+          "LegacyTableId": 795,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        },
+        {
+          "Index": 22,
+          "UniqueId": 0,
+          "Name": "Castle",
+          "LegacyTableId": 799,
+          "TierCount": 0,
+          "EntryCount": 0,
+          "IsMega": false
+        }
+      ]
+    },
+    {
+      "RelativePath": "Spawns/Players.dat",
+      "Present": true,
+      "ContentSha256": "5fe24f38dfeaf5ed0a2a80a238e2a37888201e203d1f6d6741059d561f3b1342",
+      "Version": 4,
+      "FileSizeInBytes": 198,
+      "BytesConsumed": 198,
+      "TrailingBytes": 0,
+      "TableCount": 0,
+      "SpawnPointCount": 14,
+      "RegionsWithSpawnPoints": 0,
+      "InvalidTableReferenceCount": 0,
+      "SpawnBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -916.9916,
+          "Y": 32.706665,
+          "Z": -1469.09521
+        },
+        "Max": {
+          "X": 1352.88916,
+          "Y": 41.690918,
+          "Z": 1295.92017
+        }
+      },
+      "Tables": []
+    }
+  ],
+  "Landscape": {
+    "LegacyTerrainFileCount": 6,
+    "LegacyTerrainBytes": 2511347,
+    "HeightmapTileCount": 36,
+    "SplatmapTileCount": 36,
+    "HoleTileCount": 5,
+    "InvalidFileCount": 0,
+    "MissingHeightmapCount": 0,
+    "MissingSplatmapCount": 0,
+    "TotalHoleCount": 327461,
+    "WorldBounds": {
+      "HasValue": true,
+      "Min": {
+        "X": -3072.0,
+        "Y": -4.79694843,
+        "Z": -3072.0
+      },
+      "Max": {
+        "X": 3072.0,
+        "Y": 633.0565,
+        "Z": 3072.0
+      }
+    },
+    "Tiles": [
+      {
+        "X": -3,
+        "Y": -3,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "db978d4e1edf0f9fe20caebcc276108caf2dc5321acbe77fbcf142bd62aa357e",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "b66ecfb1ea39da5e3220ba4ddd636031b92115532a5e497072b28edbf756e854",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 36887,
+        "MaxRawHeight": 52518,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -3,
+        "Y": -2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "0c8cd314595fa85ee00dce18d8a8d68502ffb53aedbc4f26db8c2ecddd5e941a",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "5f5ca95809afcf8c2be3b7f6d020f1427ecb7e52e356b105984fa7698738c056",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 37818,
+        "MaxRawHeight": 52720,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -3,
+        "Y": -1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "aef4f903ff64d4e3f04de2708680bf4d078b2d7c558920fab7a21fed59fb35a5",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "eb6aae5b235b8b9546e0604e70c58832057169144e41afe847a3ee81da49b11d",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 35968,
+        "MaxRawHeight": 50478,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -3,
+        "Y": 0,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "65b122d9e5577590af9b1fd916c9083482314a1ab99feaa8ebb5afd54b701d46",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "e693edf873d3599c8c2d9d8a49eee1471550a79d87ca9ce7495d1745e346a65a",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 36279,
+        "MaxRawHeight": 49606,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -3,
+        "Y": 1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "947237d05bbb5baf8855de269a32127cd053408d2babc8ac9b3674bcf4aa9e1e",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "2acebea3c40435c09d47ee766acb6087cd59d59508f172d06298d3a8a622dc58",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 35968,
+        "MaxRawHeight": 52878,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -3,
+        "Y": 2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "483f821bb275a626a2a731219fbc3717086f2f34d8a5c74cf52bd93c39de96cd",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "2c9640e578352e4d578d027984e52193f9d9a53cd3f367751a336c287661abad",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 35968,
+        "MaxRawHeight": 53025,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -2,
+        "Y": -3,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "7320711eb0d571966b62df2f2aea9578c92729be29ea32a2110867f52391d4f1",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "f47f355a59cc87535fdc73378cf4b421ca49dede39e87c20a68e139fc888a2b1",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 36889,
+        "MaxRawHeight": 50796,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -2,
+        "Y": -2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "7814fc579549f81352fb2fb435f487f22ca7b91b0c8b2a5c18acc82453219ac0",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "d19c2be39db22b5f6442e0f09dcb60548ce5325a115695cb3302df3326034bac",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32805,
+        "MaxRawHeight": 45762,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -2,
+        "Y": -1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "fcbaf85c33b302852cbd7c353e21dd5cc82fe843d5f0994d83af01b6e1ef8176",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "8de62c09196abb2fce691f8ed2ad9ab32e84d2654efbc8cc15cfb8e41ae77005",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 33204,
+        "MaxRawHeight": 43847,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -2,
+        "Y": 0,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "6b1f51e09661625c539fd70819f2a9b4a791d60e262b56bef28eab288fe2f542",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "acda450bc4205ab5b8933e36208fe16f0bcffbee66cd3398c51c0c76b05ed6e2",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 33398,
+        "MaxRawHeight": 46005,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -2,
+        "Y": 1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": true,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "64f0a36305281eefe184f7a668b4000116dfdddb6cb0cbe936e7f4b76cab1346",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "29e0d318ee72cf8979635c452dcca88ceb8070c311ef96f2c34de571d5778a98",
+        "HolesBytes": 8193,
+        "HolesSha256": "c05d8f41761c5d7fe1b3431f974dde5d3075766b45adc7d33a2d9ee6b09691cb",
+        "MinRawHeight": 35968,
+        "MaxRawHeight": 50126,
+        "HoleCount": 65397,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -2,
+        "Y": 2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "285603ab4a3f405e0d6cab95de087493e56393cfe6abb4d9b428deeb278f884e",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "5c5e4480aaee7ec238a57a8c2c76ab0bc7e3b69cfde35fe3584f46f2dfdc80cd",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 36036,
+        "MaxRawHeight": 50896,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -1,
+        "Y": -3,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "8c0531f3d563853759cba16c491ea903df92a7930737a94cd530d52b99d9d01d",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "1b322169d96db5bdb7b637dfd5d3c75cfa73a362735730553926ec4696d21ae3",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34241,
+        "MaxRawHeight": 44353,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -1,
+        "Y": -2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "442d422c3495f4e2e3758ad03d2dcfcd13821fd534b7614d52aeaa8be3ed43da",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "fb3e506f57f4c417213c5bd104d5d213adce7d95df4340a9e35c2eec344b7ca4",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 33244,
+        "MaxRawHeight": 45362,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -1,
+        "Y": -1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": true,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "03d738ddf54932634d624cc67b4ce766fd2bff7c95d25e41d2b6727b94dc98d2",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "40a54edc2ad248a5f158350226df452afff00bd45fb9a2f7b01c38d303c74839",
+        "HolesBytes": 8193,
+        "HolesSha256": "ac3601215db0e8aeaa06fef930fb4da92e6484c41205f1c1325d8aa820cb3a10",
+        "MinRawHeight": 33050,
+        "MaxRawHeight": 46483,
+        "HoleCount": 65484,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -1,
+        "Y": 0,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": true,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "12a0a48963e85efc5092efe7411c5f8ad7e7fc7dbf88256aff2713b6db217dfc",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "5bdbfc098426adb153f99cfee8f486bed95659f62669e6e1daa151db8dfa403c",
+        "HolesBytes": 8193,
+        "HolesSha256": "245875cd727769675db53a2098a940e61e8c0e56ea9dcf545eb6c32c868d4f5d",
+        "MinRawHeight": 32864,
+        "MaxRawHeight": 41742,
+        "HoleCount": 65522,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -1,
+        "Y": 1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "00e650dd1af92602f838073482c45bc6ef7b2d2fffe761b6e5f1e9a498916c66",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "61da6c3a02626b564d4279ace59e36a3d3934c729eb0ec29ddc576d1588663d3",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34401,
+        "MaxRawHeight": 45801,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": -1,
+        "Y": 2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "8d2ab0568f68023be1f5232f5e4663b40e24faf5fbf4ca345959f0dc9f5206f1",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "330388aed17b9edb731bad855948da5d9bdb95c8440195cce232827ae625ab92",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 35971,
+        "MaxRawHeight": 48859,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 0,
+        "Y": -3,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "256cda5e61f31ce98f4df68623c287c5742787caa695d41b074677c2956d29fc",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "c078ffbe2ec60265b957f30147e6bfd020c8aff5f9ff413eaee1d8a4201791eb",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34125,
+        "MaxRawHeight": 43657,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 0,
+        "Y": -2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": true,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "ec55504d96e0a471cc61412f5c7c7525e0123e2c631540bc81a7a6853c62578f",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "fbad5b5345c50c8b206bbbce7853ce731c961331eca930dbfbc72a8146f49fc7",
+        "HolesBytes": 8193,
+        "HolesSha256": "c7e955c724761557d4b2281e15472ed0ce8b6665371e2cf2794232ebaef6dfd7",
+        "MinRawHeight": 33132,
+        "MaxRawHeight": 40212,
+        "HoleCount": 65531,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 0,
+        "Y": -1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": true,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "e0c40cdd8bd063e78c7e998056889174ed4ec0c726db2cd1b1141d5c67de7b70",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "959a10230aa871cbb9ecf270f5428ec7de3351aee01f3e48850dff4c2891be28",
+        "HolesBytes": 8193,
+        "HolesSha256": "9820d26f34c6fa7b76c694d2760d05de01cdbf958305d33d476d69a442647457",
+        "MinRawHeight": 32780,
+        "MaxRawHeight": 46179,
+        "HoleCount": 65527,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 0,
+        "Y": 0,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "26e9e90e8203583db367a5dff176afe66acf8f6b1e9e62342758fab48f5795e8",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "2526b9bb11a7e31afcb28363443dce6627d1ca7e65bd79a86648b118807d8394",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32817,
+        "MaxRawHeight": 38052,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 0,
+        "Y": 1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "b983643f28d098592ced38034d481ce0453e1c9d4adf65db845dbc9462dd90e9",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "2b674b656a9f939228b6f674387053134fe28a1875f6a2afdc09f12f53386c8a",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32637,
+        "MaxRawHeight": 42297,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 0,
+        "Y": 2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "6b18d790cd9882a66d37f2db00e940111214daac5a526ccee9f09d2cbae57317",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "b9269173ac2a8975e90d9d215bd95278d986031f332fdf6541ff9a355bd928e3",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 35974,
+        "MaxRawHeight": 44494,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 1,
+        "Y": -3,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "3bffecbbe8e3493ff21c2cec299ef485a75bcd3e34eaec3e7fa3207d9d2ce705",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "b92769afa63c97e23f22c31256ce1cad53fb0f0ddeafc8e01c345154153ee19e",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 33105,
+        "MaxRawHeight": 40997,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 1,
+        "Y": -2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "60130cf5a50385b79ad6c00eaa5da7b7add14d8025f95d827fb9ecda27aecf90",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "152dac806d0511a5da62584057bf6ce8751b61184c1ae1d4bd391d20d23ac438",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32821,
+        "MaxRawHeight": 39589,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 1,
+        "Y": -1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "dbc23d39376cd7681b478ba49b763672913480981f560037145396bde56e44a0",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "2be427f5288ca3a47c6c701d3297b58c49c5354db40c02c031eb8399a6b56662",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32614,
+        "MaxRawHeight": 38661,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 1,
+        "Y": 0,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "388fabdfdc6000798286d6f28d5963527b9f2f57e07a043043f96ec001ddc25a",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "a6fc609e23e35d0f78ecd748115a87056a2b7c45fd68fd066c9eaef5185ff899",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34111,
+        "MaxRawHeight": 38945,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 1,
+        "Y": 1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "28d6bc522f8ea796a0eebc5c1b814ab9152158f72735493719d98ee9f5540f47",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "a7db4d22da638e873cbfadba89a1d071e08aa5545767990f01c443f98ce75c14",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32943,
+        "MaxRawHeight": 40646,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 1,
+        "Y": 2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "c3f49803649a962fd203992cb8a2a7f3ee190dbaeba289c63e473498ed384a48",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "82b6206438447d020ce9c7eca5169300f58f506e2167333aea49fd2b1eeb18f5",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 33123,
+        "MaxRawHeight": 43882,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 2,
+        "Y": -3,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "21c7e00e5e66fcc792a75f1e25c387d3b29c40843fcefced96da658a54c3ab2d",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "830c7d76b00bd626f3b65890e1214374be8f6a30302852118cbc3ba794380567",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34111,
+        "MaxRawHeight": 42485,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 2,
+        "Y": -2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "b31ea5cc69ea7b4f195a25043192eb7b34606baeac322ff9bb003c6e5409f209",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "5195d8955eeafb14ddae41369eb3896a231b8c8636db36f62911bd5190d47d06",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34111,
+        "MaxRawHeight": 39552,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 2,
+        "Y": -1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "d1dbf4522d44ba627720b51c6537243a97856eb175505715a7f7174ac33c14d7",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "ebb3604fa68bfe9f37035002a3f552ac2f6e09930474fb6068fd6bb4a9b7da2e",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32856,
+        "MaxRawHeight": 39685,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 2,
+        "Y": 0,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "9756ed552dc4362f0b4366403629919f53129bc7df25071f6b7e33e64dcda42f",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "99b1c2f2d9aa90efb61ed55c666c6ef3966c2633cbfedf779dfc1786516c753e",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34231,
+        "MaxRawHeight": 41711,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 2,
+        "Y": 1,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "e99fd6d9893e5317eee0c5fff486c436af4158a1f1543409e53707ba9b5ed347",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "b85f166c058f7fd997ca6d838fb97fbb8e524912bef239cef91639d45c3e6c4d",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 34111,
+        "MaxRawHeight": 40958,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      },
+      {
+        "X": 2,
+        "Y": 2,
+        "HasHeightmap": true,
+        "HasSplatmap": true,
+        "HasHoles": false,
+        "HeightmapBytes": 132098,
+        "HeightmapSha256": "2659b0ba103fd4ba92f77ab981122027185df0ae8e01f64038fa2f197c5f7465",
+        "SplatmapBytes": 524288,
+        "SplatmapSha256": "0eafd9b54e27ef3842e55c38fa74c8fe8508eccf618f5a46813754d07a91ffaa",
+        "HolesBytes": 0,
+        "HolesSha256": null,
+        "MinRawHeight": 32841,
+        "MaxRawHeight": 41107,
+        "HoleCount": 0,
+        "BlackSplatPixelCount": 0
+      }
+    ]
+  },
+  "Objects": {
+    "Present": true,
+    "ContentSha256": "4bc474640a715cf0fb5cb838171a5f2fd1357621cd9ec7dbb74999840822bb01",
+    "Version": 12,
+    "FileSizeInBytes": 1142113,
+    "BytesConsumed": 1142113,
+    "TrailingBytes": 0,
+    "AvailableInstanceId": 108,
+    "ObjectCount": 13499,
+    "RegionsWithObjects": 659,
+    "DuplicateInstanceIdCount": 0,
+    "EmptyAssetReferenceCount": 0,
+    "Bounds": {
+      "HasValue": true,
+      "Min": {
+        "X": -3055.914,
+        "Y": -1.81683493,
+        "Z": -2436.16
+      },
+      "Max": {
+        "X": 2394.43,
+        "Y": 519.3057,
+        "Z": 3057.236
+      }
+    }
+  },
+  "Roads": {
+    "MaterialsFilePresent": true,
+    "MaterialsContentSha256": "b0d98494bd658d10f0697d4fcbf2617211d8964362cd8cdf19740bd9cabd5332",
+    "MaterialsVersion": 2,
+    "MaterialCount": 10,
+    "PathsFilePresent": true,
+    "PathsContentSha256": "507dae4482bd05dfb83a36f65849908a6ef60713b440cd1cba256a1449d2b8af",
+    "PathsVersion": 6,
+    "PathCount": 55,
+    "JointCount": 234,
+    "InvalidMaterialReferenceCount": 0,
+    "PathsBytesConsumed": 11041,
+    "PathsTrailingBytes": 0,
+    "Bounds": {
+      "HasValue": true,
+      "Min": {
+        "X": -1715.27271,
+        "Y": 27.3457031,
+        "Z": -1890.88538
+      },
+      "Max": {
+        "X": 1887.13684,
+        "Y": 204.199951,
+        "Z": 1918.154
+      }
+    }
+  },
+  "Hierarchy": {
+    "Present": true,
+    "ContentSha256": "8e409b623f5605d7c15feb9c8ba0fd115d64de60956af5ce231f5c43a8a9c80e",
+    "FileSizeInBytes": 2952469,
+    "AvailableInstanceId": 17636,
+    "ItemCount": 197,
+    "MissingTypeCount": 0,
+    "Types": [
+      {
+        "TypeName": "SDG.Framework.Devkit.AmbianceVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 11
+      },
+      {
+        "TypeName": "SDG.Framework.Devkit.DeadzoneVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 1
+      },
+      {
+        "TypeName": "SDG.Framework.Devkit.EffectVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 35
+      },
+      {
+        "TypeName": "SDG.Framework.Devkit.KillVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 5
+      },
+      {
+        "TypeName": "SDG.Framework.Devkit.NavClipVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 25
+      },
+      {
+        "TypeName": "SDG.Framework.Devkit.PlayerClipVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 19
+      },
+      {
+        "TypeName": "SDG.Framework.Devkit.UndergroundWhitelistVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 5
+      },
+      {
+        "TypeName": "SDG.Framework.Foliage.FoliageSystem, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 1
+      },
+      {
+        "TypeName": "SDG.Framework.Foliage.FoliageVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 5
+      },
+      {
+        "TypeName": "SDG.Framework.Landscapes.Landscape, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 1
+      },
+      {
+        "TypeName": "SDG.Framework.Water.WaterVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 9
+      },
+      {
+        "TypeName": "SDG.Unturned.AirdropDevkitNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 58
+      },
+      {
+        "TypeName": "SDG.Unturned.CullingVolume, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 2
+      },
+      {
+        "TypeName": "SDG.Unturned.LocationDevkitNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Count": 20
+      }
+    ]
+  },
+  "Issues": []
+}

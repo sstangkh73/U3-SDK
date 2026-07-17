@@ -5,7 +5,7 @@
 | ระยะ | รายงาน | สถานะ |
 |---:|---|---|
 | 0 | [Baseline และการปกป้องงาน](phase-0-baseline-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว |
-| 1 | Binary decoders และ validation | กำลังดำเนินการ |
+| 1 | [Binary decoders และ validation](phase-1-binary-decoders-2026-07-18.th.md) | ผ่านการตรวจในเครื่อง; รอ metadata หลัง push |
 | 2 | World schema และ stable identity | ยังไม่เริ่ม |
 | 3 | Single-zone runtime parity | ยังไม่เริ่ม |
 | 4 | Two-zone streaming prototype | ยังไม่เริ่ม |

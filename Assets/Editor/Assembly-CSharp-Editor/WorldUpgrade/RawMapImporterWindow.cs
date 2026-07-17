@@ -45,9 +45,24 @@ namespace SDG.Unturned.WorldUpgrade.Editor
 				}
 			}
 
+			if (GUILayout.Button("Decode and Validate Configured Maps", GUILayout.Height(32.0f)))
+			{
+				try
+				{
+					RawMapDecodedSummaryGenerator.GenerateConfiguredDecodedSummaries();
+					ShowNotification(new GUIContent("Decoded map summaries generated"));
+				}
+				catch (Exception exception)
+				{
+					Debug.LogException(exception);
+					EditorUtility.DisplayDialog("Raw Map Decode Failed", exception.Message, "OK");
+				}
+			}
+
 			EditorGUILayout.Space();
 			EditorGUILayout.LabelField("Import boundary", EditorStyles.boldLabel);
-			EditorGUILayout.LabelField("Included: terrain, objects, environment, navigation, spawns, dependencies", EditorStyles.wordWrappedLabel);
+			EditorGUILayout.LabelField("Decoded in phase 1: spawn tables/points, landscape tiles, objects, roads, hierarchy", EditorStyles.wordWrappedLabel);
+			EditorGUILayout.LabelField("Inventory only: remaining environment and navigation formats", EditorStyles.wordWrappedLabel);
 			EditorGUILayout.LabelField("Reference only: legacy item, zombie, difficulty, survival, vehicle, event rules", EditorStyles.wordWrappedLabel);
 		}
 	}
