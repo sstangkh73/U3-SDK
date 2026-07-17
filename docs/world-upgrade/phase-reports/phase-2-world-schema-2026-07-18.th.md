@@ -2,8 +2,10 @@
 
 **วันที่ทดสอบ:** 18 กรกฎาคม 2026  
 **Branch:** `codex/world-travel-mvp`  
-**ผล gate:** ผ่านการตรวจในเครื่อง; รอ commit/push metadata  
+**ผล gate:** ผ่านและเผยแพร่บน GitHub แล้ว  
 **ฐานจากระยะก่อน:** Phase 1 commit `b9c5c19`  
+**Phase 2 commit:** [`03cdfee`](https://github.com/sstangkh73/U3-SDK/commit/03cdfee)  
+**Draft PR:** [sstangkh73/U3-SDK#1](https://github.com/sstangkh73/U3-SDK/pull/1)  
 
 ## 1. วัตถุประสงค์
 
@@ -220,8 +222,8 @@ integration รอบแรก deterministic แต่ล้ม gate ด้ว�
 | Source update classification | ผ่าน automated test และ unchanged integration rerun |
 | Unity compile | ผ่าน |
 | EditMode tests | ผ่าน 1,339/1,339 |
-| Code/report อยู่บน GitHub | รอ commit/push metadata |
+| Code/report อยู่บน GitHub | ผ่าน — commit `03cdfee`, Draft PR #1 |
 
 ## 9. ข้อสรุป
 
-Phase 2 ผ่าน gate ในเครื่องแล้ว โลกใหม่มี identity และ ownership contract ที่ deterministic สำหรับ California 2 กับ Limestone โดยยังไม่กล่าวอ้างว่า runtime streaming ทำงาน ขั้นถัดไปคือ Phase 3: ใช้ cell schema โหลด California 2 แบบ single-zone ให้ terrain, collision และ static objects เทียบกับ baseline เดิม พร้อมกำหนด fallback สำหรับ orphan heightmaps และ black splat pixels ก่อนเริ่ม two-zone streaming
+Phase 2 ผ่าน gate และเผยแพร่บน GitHub แล้ว โลกใหม่มี identity และ ownership contract ที่ deterministic สำหรับ California 2 กับ Limestone โดยยังไม่กล่าวอ้างว่า runtime streaming ทำงาน ขั้นถัดไปคือ Phase 3: ใช้ cell schema โหลด California 2 แบบ single-zone ให้ terrain, collision และ static objects เทียบกับ baseline เดิม พร้อมกำหนด fallback สำหรับ orphan heightmaps และ black splat pixels ก่อนเริ่ม two-zone streaming
