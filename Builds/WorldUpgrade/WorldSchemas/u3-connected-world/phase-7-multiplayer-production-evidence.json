@@ -1,0 +1,66 @@
+{
+  "SchemaVersion": 1,
+  "WorldId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+  "IsValid": true,
+  "ErrorCount": 0,
+  "WarningCount": 4,
+  "DeterministicAuthoritySimulationExecuted": true,
+  "DedicatedServerProcessExecuted": false,
+  "SimulatedClientCount": 64,
+  "SimulatedZoneCount": 2,
+  "SimulatedDistinctCellCount": 50,
+  "LoadSimulationCycleCount": 50,
+  "ReplicationSnapshotCount": 3328,
+  "ReplicationScopeLeakCount": 0,
+  "StateConflictCount": 0,
+  "InitialLiveItemCount": 64,
+  "FinalLiveItemCount": 64,
+  "FinalInventoryItemCount": 0,
+  "PickupCommitCount": 64,
+  "DropCommitCount": 64,
+  "ReplayAttemptCount": 640,
+  "ReplayMutationCount": 0,
+  "UnauthorizedTravelRejectionCount": 64,
+  "UnauthorizedSaveRejectionCount": 64,
+  "WrongReconnectTokenRejectionCount": 64,
+  "SuccessfulReconnectCount": 64,
+  "ServerVerifiedMigrationCount": 16,
+  "StaleRevisionRejectionCount": 64,
+  "ItemConservationPassed": true,
+  "ReconnectServerSnapshotPassed": true,
+  "ClientTravelAuthorityBlocked": true,
+  "ClientSaveAuthorityBlocked": true,
+  "FinalServerSnapshotFingerprintSha256": "91d76a2e3173b2b8745cf7dbf79feb120dc0a90b7c158c956c3ebd9c0f405965",
+  "CompatibilityContractPassed": true,
+  "PackageManifestGenerated": true,
+  "PackagingBuildExecuted": false,
+  "LicenseFilePresent": true,
+  "LicenseReviewApproved": false,
+  "UpdateMigrationTestExecuted": false,
+  "Issues": [
+    {
+      "Severity": "Warning",
+      "Code": "DedicatedServerNotExecuted",
+      "ScopeId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+      "Message": "The 64-client load is an in-process deterministic authority simulation, not a dedicated server process or network transport test."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "PackagingBuildNotExecuted",
+      "ScopeId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+      "Message": "A hashed input manifest is generated, but no distributable client/server package was built or installed."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "LicenseReviewPending",
+      "ScopeId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+      "Message": "The repository license file is present, but map/workshop redistribution and release licensing require human approval."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "UpdateMigrationNotExecuted",
+      "ScopeId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+      "Message": "Current schema compatibility is checked; migration from an older shipped build has not been exercised."
+    }
+  ]
+}

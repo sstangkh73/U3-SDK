@@ -1,0 +1,71 @@
+{
+  "SchemaVersion": 1,
+  "OutputDirectory": "Builds/WorldUpgrade/RawMapManifests",
+  "Maps": [
+    {
+      "Enabled": true,
+      "ZoneId": "california-2",
+      "DisplayName": "California 2",
+      "SourceType": "Workshop",
+      "PublishedFileId": "3707778928",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/workshop/content/304930/3707778928/California2",
+      "DependencyRoots": [
+        "C:/Program Files (x86)/Steam/steamapps/workshop/content/304930/3711646503"
+      ]
+    },
+    {
+      "Enabled": true,
+      "ZoneId": "limestone",
+      "DisplayName": "Limestone",
+      "SourceType": "Workshop",
+      "PublishedFileId": "3565225438",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/workshop/content/304930/3565225438/Limestone",
+      "DependencyRoots": []
+    },
+    {
+      "Enabled": true,
+      "ZoneId": "pei",
+      "DisplayName": "PEI",
+      "SourceType": "Official",
+      "PublishedFileId": "",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/PEI",
+      "DependencyRoots": []
+    },
+    {
+      "Enabled": true,
+      "ZoneId": "washington",
+      "DisplayName": "Washington",
+      "SourceType": "Official",
+      "PublishedFileId": "",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/Washington",
+      "DependencyRoots": []
+    },
+    {
+      "Enabled": true,
+      "ZoneId": "yukon",
+      "DisplayName": "Yukon",
+      "SourceType": "Official",
+      "PublishedFileId": "",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/Yukon",
+      "DependencyRoots": []
+    },
+    {
+      "Enabled": true,
+      "ZoneId": "russia",
+      "DisplayName": "Russia",
+      "SourceType": "Official",
+      "PublishedFileId": "",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/Russia",
+      "DependencyRoots": []
+    },
+    {
+      "Enabled": true,
+      "ZoneId": "germany",
+      "DisplayName": "Germany",
+      "SourceType": "Official",
+      "PublishedFileId": "",
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/common/Unturned/Maps/Germany",
+      "DependencyRoots": []
+    }
+  ]
+}

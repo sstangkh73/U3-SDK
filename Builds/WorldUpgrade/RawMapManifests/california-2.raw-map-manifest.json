@@ -1,0 +1,1522 @@
+{
+  "SchemaVersion": 1,
+  "ZoneId": "california-2",
+  "DisplayName": "California 2",
+  "SourceType": "Workshop",
+  "PublishedFileId": "3707778928",
+  "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/workshop/content/304930/3707778928/California2",
+  "GeneratedUtc": "2026-07-17T18:40:39.4974542Z",
+  "InventoryFingerprintSha256": "94bdfe59d2727f1a19d05d24a5b1ab89d17f029e6caca6831550c3c2e360489f",
+  "CopiesSourceContent": false,
+  "ImportsLegacyGameplayRules": false,
+  "Level": {
+    "FormatVersion": 2,
+    "SizeValue": 4,
+    "SizeName": "Insane",
+    "SizeInWorldUnits": 8192,
+    "TypeValue": 0,
+    "TypeName": "Survival"
+  },
+  "Config": {
+    "RelativePath": "Config.json",
+    "Version": "2.1.0.1",
+    "AssetGuid": "009505be2a2d48b7b0a8f71adba8b858",
+    "LegacyGameplayRulesAreReferenceOnly": true,
+    "ConfigParseError": null,
+    "RequiredWorkshopFileIds": [
+      "3711646503"
+    ],
+    "CommonGameplayOverrideKeys": [
+      "Animals.Max_Instances_Insane",
+      "Animals.Respawn_Time",
+      "Barricades.Armor_Hightier_Multiplier",
+      "Barricades.Armor_Lowtier_Multiplier",
+      "Barricades.Decay_Time",
+      "Events.Airdrop_Force",
+      "Events.Airdrop_Speed",
+      "Events.Use_Airdrops",
+      "Events.Weather_Frequency_Multiplier",
+      "Gameplay.Ballistics",
+      "Gameplay.Chart",
+      "Gameplay.Group_Map",
+      "Gameplay.Timer_Exit",
+      "Gameplay.Timer_Home",
+      "Gameplay.Use_2D_Scope_Overlay",
+      "Items.Crate_Bullets_Full_Chance",
+      "Items.Crate_Bullets_Multiplier",
+      "Items.Despawn_Dropped_Time",
+      "Items.Despawn_Natural_Time",
+      "Items.Magazine_Bullets_Full_Chance",
+      "Items.Magazine_Bullets_Multiplier",
+      "Items.Quality_Full_Chance",
+      "Items.Respawn_Time",
+      "Objects.Resource_Reset_Multiplier",
+      "Objects.Rubble_Reset_Multiplier",
+      "Players.Allow_Per_Character_Saves",
+      "Players.Bleed_Damage_Ticks",
+      "Players.Can_Stop_Bleeding",
+      "Players.Detect_Radius_Multiplier",
+      "Players.Experience_Multiplier",
+      "Players.Food_Use_Ticks",
+      "Players.Lose_Experience_PvE",
+      "Players.Lose_Experience_PvP",
+      "Players.Lose_Skill_Levels_PvE",
+      "Players.Lose_Skill_Levels_PvP",
+      "Players.Lose_Skills_PvE",
+      "Players.Lose_Skills_PvP",
+      "Players.Ray_Aggressor_Distance",
+      "Players.Spawn_With_Max_Skills",
+      "Players.Virus_Damage_Ticks",
+      "Players.Virus_Infect",
+      "Players.Virus_Use_Ticks",
+      "Players.Water_Use_Ticks",
+      "Structures.Armor_Hightier_Multiplier",
+      "Structures.Armor_Lowtier_Multiplier",
+      "Structures.Decay_Time",
+      "Vehicles.Armor_Multiplier",
+      "Vehicles.Decay_Damage_Per_Second",
+      "Vehicles.Decay_Time",
+      "Vehicles.Gun_Highcal_Damage_Multiplier",
+      "Vehicles.Gun_Lowcal_Damage_Multiplier",
+      "Vehicles.Has_Battery_Chance",
+      "Vehicles.Max_Battery_Charge",
+      "Vehicles.Max_Instances_Insane",
+      "Vehicles.Max_Instances_Large",
+      "Vehicles.Melee_Damage_Multiplier",
+      "Vehicles.Melee_Repair_Multiplier",
+      "Vehicles.Min_Battery_Charge",
+      "Zombies.Armor_Multiplier",
+      "Zombies.Damage_Multiplier",
+      "Zombies.Min_Mega_Drops",
+      "Zombies.Slow_Movement",
+      "Zombies.Spawn_Chance"
+    ],
+    "EasyGameplayOverrideKeys": [],
+    "NormalGameplayOverrideKeys": [],
+    "HardGameplayOverrideKeys": [],
+    "TrainAssociationCount": 2,
+    "SpawnLoadoutCount": 1
+  },
+  "Files": [
+    {
+      "RelativePath": "Brazilian.dat",
+      "SizeInBytes": 3031,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Chart.png",
+      "SizeInBytes": 4013771,
+      "Category": "MapImage"
+    },
+    {
+      "RelativePath": "Charts.unity3d",
+      "SizeInBytes": 5057,
+      "Category": "AssetBundle"
+    },
+    {
+      "RelativePath": "Config.json",
+      "SizeInBytes": 4504,
+      "Category": "Metadata"
+    },
+    {
+      "RelativePath": "Editor/Camera.dat",
+      "SizeInBytes": 21,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Height.dat",
+      "SizeInBytes": 14,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Materials.dat",
+      "SizeInBytes": 6,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Objects.dat",
+      "SizeInBytes": 9,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Editor/Spawns.dat",
+      "SizeInBytes": 6,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "English.dat",
+      "SizeInBytes": 1861,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Environment/Ambience.unity3d",
+      "SizeInBytes": 2616759,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Bounds.dat",
+      "SizeInBytes": 1250,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Flags.dat",
+      "SizeInBytes": 1042,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Flags_Data.dat",
+      "SizeInBytes": 2090,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Info.txt",
+      "SizeInBytes": 85,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Lighting.dat",
+      "SizeInBytes": 268,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Navigation_0.dat",
+      "SizeInBytes": 67421,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_1.dat",
+      "SizeInBytes": 48013,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_10.dat",
+      "SizeInBytes": 288359,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_11.dat",
+      "SizeInBytes": 110359,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_12.dat",
+      "SizeInBytes": 40505,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_13.dat",
+      "SizeInBytes": 45729,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_14.dat",
+      "SizeInBytes": 14451,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_15.dat",
+      "SizeInBytes": 119691,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_16.dat",
+      "SizeInBytes": 101577,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_17.dat",
+      "SizeInBytes": 520113,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_18.dat",
+      "SizeInBytes": 246863,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_19.dat",
+      "SizeInBytes": 81527,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_2.dat",
+      "SizeInBytes": 206001,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_20.dat",
+      "SizeInBytes": 156129,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_21.dat",
+      "SizeInBytes": 114783,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_22.dat",
+      "SizeInBytes": 94983,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_23.dat",
+      "SizeInBytes": 81495,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_24.dat",
+      "SizeInBytes": 158707,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_25.dat",
+      "SizeInBytes": 122289,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_26.dat",
+      "SizeInBytes": 34659,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_27.dat",
+      "SizeInBytes": 43173,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_28.dat",
+      "SizeInBytes": 50043,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_29.dat",
+      "SizeInBytes": 97989,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_3.dat",
+      "SizeInBytes": 101343,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_30.dat",
+      "SizeInBytes": 42237,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_31.dat",
+      "SizeInBytes": 428799,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_32.dat",
+      "SizeInBytes": 34095,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_33.dat",
+      "SizeInBytes": 79207,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_34.dat",
+      "SizeInBytes": 39959,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_35.dat",
+      "SizeInBytes": 136665,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_36.dat",
+      "SizeInBytes": 14075,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_37.dat",
+      "SizeInBytes": 45999,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_38.dat",
+      "SizeInBytes": 55995,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_39.dat",
+      "SizeInBytes": 149091,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_4.dat",
+      "SizeInBytes": 120579,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_40.dat",
+      "SizeInBytes": 83297,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_41.dat",
+      "SizeInBytes": 45807,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_42.dat",
+      "SizeInBytes": 243231,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_43.dat",
+      "SizeInBytes": 30499,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_44.dat",
+      "SizeInBytes": 94335,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_45.dat",
+      "SizeInBytes": 210809,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_46.dat",
+      "SizeInBytes": 200783,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_47.dat",
+      "SizeInBytes": 27367,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_48.dat",
+      "SizeInBytes": 43971,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_49.dat",
+      "SizeInBytes": 65095,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_5.dat",
+      "SizeInBytes": 204027,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_50.dat",
+      "SizeInBytes": 34043,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_51.dat",
+      "SizeInBytes": 39819,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_6.dat",
+      "SizeInBytes": 21849,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_7.dat",
+      "SizeInBytes": 39837,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_8.dat",
+      "SizeInBytes": 85025,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Navigation_9.dat",
+      "SizeInBytes": 24999,
+      "Category": "Navigation"
+    },
+    {
+      "RelativePath": "Environment/Nodes.dat",
+      "SizeInBytes": 2067,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Paths.dat",
+      "SizeInBytes": 235501,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Roads.dat",
+      "SizeInBytes": 767,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Environment/Roads.unity3d",
+      "SizeInBytes": 139168,
+      "Category": "Environment"
+    },
+    {
+      "RelativePath": "Foliage.blob",
+      "SizeInBytes": 286152041,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Icon.png",
+      "SizeInBytes": 43123,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_-3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_-6_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-1_4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_-3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-2_4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-3_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_-4_-4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_-3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_-4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_0_4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_-3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_1_4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_-3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_2_4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_-1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_-2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_-3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_0_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_1_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_2_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_3_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Heightmaps/Tile_3_4_Source.heightmap",
+      "SizeInBytes": 132098,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_-1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_-2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_-6.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_0.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-1_4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-2_-1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-2_1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-2_2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-2_3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-2_4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_-4_-4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_-1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_-2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_-4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_0.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_0_4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_-1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_-2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_-3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_0.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_1_4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_-1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_-2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_-3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_0.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_2_4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_3_-2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_3_1.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_3_2.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_3_3.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Holes/Tile_3_4.bin",
+      "SizeInBytes": 8193,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_-3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_-6_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-1_4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_-3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-2_4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-3_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_-4_-4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_-3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_-4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_0_4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_-3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_1_4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_-3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_-4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_-6_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_2_4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_-1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_-2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_-3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_-4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_0_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_1_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_2_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_3_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Landscape/Splatmaps/Tile_3_4_Source.splatmap",
+      "SizeInBytes": 524288,
+      "Category": "Landscape"
+    },
+    {
+      "RelativePath": "Level.dat",
+      "SizeInBytes": 11,
+      "Category": "Metadata"
+    },
+    {
+      "RelativePath": "Level.hierarchy",
+      "SizeInBytes": 6082665,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Level.png",
+      "SizeInBytes": 1724694,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Level/Buildables.dat",
+      "SizeInBytes": 8661,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Level/Objects.dat",
+      "SizeInBytes": 6845125,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Level/Visibility.dat",
+      "SizeInBytes": 10,
+      "Category": "WorldObjects"
+    },
+    {
+      "RelativePath": "Map.png",
+      "SizeInBytes": 34164291,
+      "Category": "MapImage"
+    },
+    {
+      "RelativePath": "Russian.dat",
+      "SizeInBytes": 2804,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Schinese.dat",
+      "SizeInBytes": 2913,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Adobe.png",
+      "SizeInBytes": 1945068,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Birb.png",
+      "SizeInBytes": 1568003,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/El_Portal_0.png",
+      "SizeInBytes": 2098886,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Golden_Gate.png",
+      "SizeInBytes": 1773160,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Lighthouse.png",
+      "SizeInBytes": 1869402,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Mojave.png",
+      "SizeInBytes": 2167170,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Mori_0.png",
+      "SizeInBytes": 2021072,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Oakland_Bay.png",
+      "SizeInBytes": 1752857,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Sandstorm.png",
+      "SizeInBytes": 1154656,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Shopping_Center.png",
+      "SizeInBytes": 1909515,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Tar.png",
+      "SizeInBytes": 1695302,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Toulumne.png",
+      "SizeInBytes": 1745222,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Screenshots/Whitney.png",
+      "SizeInBytes": 1173557,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Spawns/Animals.dat",
+      "SizeInBytes": 85127,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Fauna.dat",
+      "SizeInBytes": 7124,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Items.dat",
+      "SizeInBytes": 1727,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Jars.dat",
+      "SizeInBytes": 183576,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Players.dat",
+      "SizeInBytes": 842,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Vehicles.dat",
+      "SizeInBytes": 4371,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Spawns/Zombies.dat",
+      "SizeInBytes": 5635,
+      "Category": "Spawns"
+    },
+    {
+      "RelativePath": "Tchinese.dat",
+      "SizeInBytes": 2919,
+      "Category": "Other"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2HQ_0.png",
+      "SizeInBytes": 44128,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2HQ_1.png",
+      "SizeInBytes": 29931,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2_0.png",
+      "SizeInBytes": 1630,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap2_1.png",
+      "SizeInBytes": 1297,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/AlphamapHQ_0.png",
+      "SizeInBytes": 250840,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/AlphamapHQ_1.png",
+      "SizeInBytes": 179607,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap_0.png",
+      "SizeInBytes": 146918,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Alphamap_1.png",
+      "SizeInBytes": 75523,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Details.dat",
+      "SizeInBytes": 167,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Details.unity3d",
+      "SizeInBytes": 86994,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Heightmap.png",
+      "SizeInBytes": 163880,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Heightmap2.png",
+      "SizeInBytes": 35587,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Heights.dat",
+      "SizeInBytes": 2,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Materials.dat",
+      "SizeInBytes": 258,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Materials.unity3d",
+      "SizeInBytes": 66166,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Resources.dat",
+      "SizeInBytes": 2366,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Terrain/Trees.dat",
+      "SizeInBytes": 1310545,
+      "Category": "Terrain"
+    },
+    {
+      "RelativePath": "Ukrainian.dat",
+      "SizeInBytes": 2788,
+      "Category": "Other"
+    }
+  ],
+  "Categories": [
+    {
+      "Category": "Metadata",
+      "FileCount": 2,
+      "SizeInBytes": 4515
+    },
+    {
+      "Category": "Landscape",
+      "FileCount": 150,
+      "SizeInBytes": 36057235
+    },
+    {
+      "Category": "Terrain",
+      "FileCount": 17,
+      "SizeInBytes": 2395839
+    },
+    {
+      "Category": "WorldObjects",
+      "FileCount": 5,
+      "SizeInBytes": 299088502
+    },
+    {
+      "Category": "Environment",
+      "FileCount": 10,
+      "SizeInBytes": 2998997
+    },
+    {
+      "Category": "Navigation",
+      "FileCount": 52,
+      "SizeInBytes": 5587696
+    },
+    {
+      "Category": "Spawns",
+      "FileCount": 7,
+      "SizeInBytes": 288402
+    },
+    {
+      "Category": "MapImage",
+      "FileCount": 2,
+      "SizeInBytes": 38178062
+    },
+    {
+      "Category": "AssetBundle",
+      "FileCount": 1,
+      "SizeInBytes": 5057
+    },
+    {
+      "Category": "Other",
+      "FileCount": 26,
+      "SizeInBytes": 24658059
+    }
+  ],
+  "Dependencies": [
+    {
+      "SourceRoot": "C:/Program Files (x86)/Steam/steamapps/workshop/content/304930/3711646503",
+      "FileCount": 23431,
+      "SizeInBytes": 479188141,
+      "InventoryFingerprintSha256": "04e5666fca5845b4755c58f808ccf3880ec07af3a2a2140f90968439d90bd73d"
+    }
+  ]
+}

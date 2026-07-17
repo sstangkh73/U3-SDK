@@ -1,0 +1,132 @@
+{
+  "AddedCount": 0,
+  "RemovedCount": 15,
+  "MovedCount": 0,
+  "ModifiedCount": 0,
+  "UnchangedCount": 133609,
+  "Added": [],
+  "Removed": [
+    {
+      "EntityId": "ent_0b8c0345a15f7ae1dae4a075a79006ab",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_032732066663160c9bb8d31ae734659e",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "7497bbe2571ea5483653f24573221474bc6042708936a586d094b0aee7462ee6",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_0bf3474ef75bb8039c67c8e436bd292f",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_f24db6aa66e5064de9246abeab8f0f00",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "a87e9f860b22487df5e60705912abb38e3b273eb8f764f6d0d77f1fc038799fa",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_0e85477b4b759e2a898abdf5cb172cad",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_41ce9cc0e728a3036e1a1ee68d662378",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "0317bc844a781589419ee874eaa476991df69f0d99793de2930bf1ba1940870b",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_1edd09e8b1b5f69ba02510db28ad7277",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_94a00ae03827a6fa0eb9513ac93a55f7",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "de7942ea2d3a262e8100790d1e3b45a36997ae62233f51c7bc9e02a9e3e9add6",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_2d35c1d21c50df0c41ac8cca17640868",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_812a96cd518672a4743786b6767e8554",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "0e968e503a576834d28f2ec2735e16a998bba678ee7afa92296ab9476c755be5",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_4354c5c4182d45c66923602847e3127b",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_52acb9c5a1a1604fafa519e606ec8986",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "280b3a3c0eb8662151e20c9c8c82107ade419674213183c365c6d8ca6d3c94f8",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_8f1070f782464f5582566f22a22a391d",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_6d21f9c4aea0cf3aa8648a117d4ebec4",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "1db48d4f6017586e590739315e1ea7788fafea5782080ecebc543cf75dabee2b",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_a1072180b8d83c931d2ad73817f31264",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_2e2fbe992f6e8b0fdd1b2b54152a70ee",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "acef7d52f4f7de4ce956ec1aa84ca0ecb28260bb44494130da5b689ee1b37ad7",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_ace590453b1a706ce95b49c66d00a443",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_631d55f1dfb1fa85ccc2f4c9b6de7daa",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "032d27b39bfecb823d3deb77e056e511e5b4d14e54587c95d5ff62e2c7e8aace",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_adbdd90de039498ef0d2b0c407dcdc6f",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_26e3cfbc22ed09c698467c8a29ba1d4f",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "379370fa3a549d2e143cbf3ce6147b64f20afbd904e4a36f49ad95dd3018a477",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_b4c003451851959fa5f208ab9b48d95e",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_99a2d8f3a76ae6317c91ff55519687c2",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "f8ba98d7150dfb5c76cedac3784736da6981134c4d3b9db91b99c66ae3046759",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_c524a3fb62983e573fc64833409d7398",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_2bb96f962cb1f839ed416297e295b5e0",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "f33bf4a82d1e18deafc6ff43aeff9530a03d26459d4992a1f53f353c2cc2f643",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_d8f8a43a5d31058e8221c8c82e53b7a3",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_a44c73cf03e28a3e570319e9fe805d8d",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "24fab4150c5d2f3b8caf9ed33b3fe8f51c8e44943ed34b1c916eac07a0d4498d",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_e413f6a03e1e1b4ac04d6273a0d73ad0",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_9dc93b798f7e7d6f3cc708b43eae063f",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "3c287a39d87fdf524f1dcc910e903bb72aadd649cdca34a175d36d1c75650519",
+      "AfterContentFingerprintSha256": null
+    },
+    {
+      "EntityId": "ent_f1925254e2061c57f03f9aef2498f90c",
+      "Kind": "LandscapeTile",
+      "BeforeOwnerCellId": "cel_f1217db58e1e6913f67ca31cddfe732a",
+      "AfterOwnerCellId": null,
+      "BeforeContentFingerprintSha256": "69495d63c06ad5ff43f7c0b7e93c08d4ec4319896e9657e13619ca3e5d7a4f9b",
+      "AfterContentFingerprintSha256": null
+    }
+  ],
+  "Moved": [],
+  "Modified": []
+}

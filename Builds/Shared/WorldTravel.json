@@ -1,0 +1,37 @@
+{
+  "Enabled": true,
+  "Connections": [
+    {
+      "Id": "california2_to_limestone",
+      "Enabled": true,
+      "SourceMap": "California 2",
+      "SourceMapPosition": {
+        "X": 0.965,
+        "Y": 0.405
+      },
+      "TargetMap": "Limestone",
+      "TargetMapPosition": {
+        "X": 0.045,
+        "Y": 0.405
+      },
+      "TargetYaw": 90.0,
+      "TriggerRadius": 35.0
+    },
+    {
+      "Id": "limestone_to_california2",
+      "Enabled": true,
+      "SourceMap": "Limestone",
+      "SourceMapPosition": {
+        "X": 0.045,
+        "Y": 0.405
+      },
+      "TargetMap": "California 2",
+      "TargetMapPosition": {
+        "X": 0.965,
+        "Y": 0.405
+      },
+      "TargetYaw": 270.0,
+      "TriggerRadius": 35.0
+    }
+  ]
+}

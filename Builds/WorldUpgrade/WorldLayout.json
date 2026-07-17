@@ -1,0 +1,24 @@
+{
+  "SchemaVersion": 1,
+  "WorldKey": "u3-connected-world",
+  "DisplayName": "U3 Connected World",
+  "CellSize": 1024,
+  "Zones": [
+    {
+      "ZoneKey": "california-2",
+      "LayoutOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    {
+      "ZoneKey": "limestone",
+      "LayoutOffset": {
+        "X": 7168.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  ]
+}

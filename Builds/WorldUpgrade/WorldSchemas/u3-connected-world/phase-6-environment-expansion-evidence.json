@@ -1,0 +1,196 @@
+{
+  "SchemaVersion": 1,
+  "IsValid": true,
+  "ErrorCount": 0,
+  "WarningCount": 5,
+  "EnvironmentProfileCount": 7,
+  "ExactLightingDecodeCount": 7,
+  "BlendPairCount": 21,
+  "BlendSampleCount": 21588,
+  "MaximumAdjacentNormalizedDelta": 0.005859256,
+  "BlendEndpointsExact": true,
+  "AbruptEnvironmentChangeDetected": false,
+  "OxygenProfilesSourceDerived": false,
+  "AmbienceAssetsSourceDerived": false,
+  "HlodGenerated": false,
+  "OcclusionGenerated": false,
+  "RuntimeProfilerExecuted": false,
+  "ExpansionCandidateCount": 5,
+  "ExpansionCandidatesReadyForRuntime": 0,
+  "Budget": {
+    "MaximumEntityRecords": 8000,
+    "MaximumStaticObjectRecords": 5000,
+    "MaximumEstimatedResidentBytes": 8388608
+  },
+  "ActiveZonePerformance": [
+    {
+      "ZoneId": "california-2",
+      "CellCount": 49,
+      "CellsOverEntityBudget": 2,
+      "CellsOverStaticObjectBudget": 2,
+      "MaximumEntityRecords": 14370,
+      "MaximumStaticObjectRecords": 11013,
+      "MaximumEstimatedResidentBytes": 2759040,
+      "RequiresHlod": true
+    },
+    {
+      "ZoneId": "limestone",
+      "CellCount": 19,
+      "CellsOverEntityBudget": 1,
+      "CellsOverStaticObjectBudget": 3,
+      "MaximumEntityRecords": 9216,
+      "MaximumStaticObjectRecords": 7648,
+      "MaximumEstimatedResidentBytes": 1769472,
+      "RequiresHlod": true
+    }
+  ],
+  "ExpansionCandidates": [
+    {
+      "ZoneId": "pei",
+      "DisplayName": "PEI",
+      "InventoryGenerated": true,
+      "DecodeValid": true,
+      "EnvironmentDecoded": true,
+      "ActiveLandscapeTileCount": 16,
+      "ObjectCount": 4329,
+      "SpawnPointCount": 4103,
+      "HierarchyItemCount": 73,
+      "RoadJointCount": 98,
+      "WorldSchemaGenerated": false,
+      "RuntimeParityPassed": false,
+      "RuntimePerformancePassed": false,
+      "RouteApproved": false,
+      "RuntimeIncluded": false,
+      "GateStatus": "BlockedPendingAuthoredRouteAndRuntimeValidation",
+      "Blockers": [
+        "No authored world-layout offset or geographic transition route has been approved.",
+        "Single-zone runtime parity has not been executed for this map.",
+        "Target-hardware runtime profiling has not been executed for this map."
+      ]
+    },
+    {
+      "ZoneId": "washington",
+      "DisplayName": "Washington",
+      "InventoryGenerated": true,
+      "DecodeValid": true,
+      "EnvironmentDecoded": true,
+      "ActiveLandscapeTileCount": 16,
+      "ObjectCount": 5271,
+      "SpawnPointCount": 4121,
+      "HierarchyItemCount": 76,
+      "RoadJointCount": 123,
+      "WorldSchemaGenerated": false,
+      "RuntimeParityPassed": false,
+      "RuntimePerformancePassed": false,
+      "RouteApproved": false,
+      "RuntimeIncluded": false,
+      "GateStatus": "BlockedPendingAuthoredRouteAndRuntimeValidation",
+      "Blockers": [
+        "No authored world-layout offset or geographic transition route has been approved.",
+        "Single-zone runtime parity has not been executed for this map.",
+        "Target-hardware runtime profiling has not been executed for this map."
+      ]
+    },
+    {
+      "ZoneId": "yukon",
+      "DisplayName": "Yukon",
+      "InventoryGenerated": true,
+      "DecodeValid": true,
+      "EnvironmentDecoded": true,
+      "ActiveLandscapeTileCount": 16,
+      "ObjectCount": 1913,
+      "SpawnPointCount": 1828,
+      "HierarchyItemCount": 13,
+      "RoadJointCount": 88,
+      "WorldSchemaGenerated": false,
+      "RuntimeParityPassed": false,
+      "RuntimePerformancePassed": false,
+      "RouteApproved": false,
+      "RuntimeIncluded": false,
+      "GateStatus": "BlockedPendingAuthoredRouteAndRuntimeValidation",
+      "Blockers": [
+        "No authored world-layout offset or geographic transition route has been approved.",
+        "Single-zone runtime parity has not been executed for this map.",
+        "Target-hardware runtime profiling has not been executed for this map."
+      ]
+    },
+    {
+      "ZoneId": "russia",
+      "DisplayName": "Russia",
+      "InventoryGenerated": true,
+      "DecodeValid": true,
+      "EnvironmentDecoded": true,
+      "ActiveLandscapeTileCount": 64,
+      "ObjectCount": 15282,
+      "SpawnPointCount": 9149,
+      "HierarchyItemCount": 138,
+      "RoadJointCount": 705,
+      "WorldSchemaGenerated": false,
+      "RuntimeParityPassed": false,
+      "RuntimePerformancePassed": false,
+      "RouteApproved": false,
+      "RuntimeIncluded": false,
+      "GateStatus": "BlockedPendingAuthoredRouteAndRuntimeValidation",
+      "Blockers": [
+        "No authored world-layout offset or geographic transition route has been approved.",
+        "Single-zone runtime parity has not been executed for this map.",
+        "Target-hardware runtime profiling has not been executed for this map."
+      ]
+    },
+    {
+      "ZoneId": "germany",
+      "DisplayName": "Germany",
+      "InventoryGenerated": true,
+      "DecodeValid": true,
+      "EnvironmentDecoded": true,
+      "ActiveLandscapeTileCount": 36,
+      "ObjectCount": 13499,
+      "SpawnPointCount": 6522,
+      "HierarchyItemCount": 197,
+      "RoadJointCount": 234,
+      "WorldSchemaGenerated": false,
+      "RuntimeParityPassed": false,
+      "RuntimePerformancePassed": false,
+      "RouteApproved": false,
+      "RuntimeIncluded": false,
+      "GateStatus": "BlockedPendingAuthoredRouteAndRuntimeValidation",
+      "Blockers": [
+        "No authored world-layout offset or geographic transition route has been approved.",
+        "Single-zone runtime parity has not been executed for this map.",
+        "Target-hardware runtime profiling has not been executed for this map."
+      ]
+    }
+  ],
+  "Issues": [
+    {
+      "Severity": "Warning",
+      "Code": "HlodRequired",
+      "ScopeId": "u3-connected-world",
+      "Message": "One or more active cells exceed record budgets; HLOD generation remains required before production."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "OxygenAndAmbienceNotDecoded",
+      "ScopeId": "u3-connected-world",
+      "Message": "Lighting/weather/water-level values are source-derived; oxygen rules and ambience asset graphs are not decoded yet."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "HlodOcclusionNotGenerated",
+      "ScopeId": "u3-connected-world",
+      "Message": "Per-cell budgets are audited, but HLOD and occlusion assets are not generated."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "RuntimeProfilerNotExecuted",
+      "ScopeId": "u3-connected-world",
+      "Message": "Budget checks use deterministic record estimates, not target-hardware CPU/GPU/memory captures."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "ExpansionGatesClosed",
+      "ScopeId": "u3-connected-world",
+      "Message": "Five official maps pass inventory/decode/environment readiness only; none is included without route, parity, and performance approval."
+    }
+  ]
+}

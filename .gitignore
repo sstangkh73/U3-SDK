@@ -86,6 +86,10 @@ Execute.config
 /obj
 /Temp
 /.vs
+/.vscode
+
+# Generated per-entity world cell bundles can be rebuilt from external map sources.
+/Builds/WorldUpgrade/WorldSchemas/*/cells/
 
 # Unity per-user editor settings
 /UserSettings

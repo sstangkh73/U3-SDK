@@ -1,0 +1,1116 @@
+{
+  "SchemaVersion": 1,
+  "WorldId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+  "ZoneKey": "limestone",
+  "ZoneId": "zon_8bb51d9eecc919a54110cc0da98c061e",
+  "DisplayName": "Limestone",
+  "LayoutOffset": {
+    "X": 7168.0,
+    "Y": 0.0,
+    "Z": 0.0
+  },
+  "CellSize": 1024,
+  "LocalBounds": {
+    "HasValue": true,
+    "Min": {
+      "X": -2048.0,
+      "Y": -1024.0,
+      "Z": -2048.0
+    },
+    "Max": {
+      "X": 3072.0,
+      "Y": 1024.0,
+      "Z": 2048.0
+    }
+  },
+  "WorldBounds": {
+    "HasValue": true,
+    "Min": {
+      "X": 5120.0,
+      "Y": -1024.0,
+      "Z": -2048.0
+    },
+    "Max": {
+      "X": 10240.0,
+      "Y": 1024.0,
+      "Z": 2048.0
+    }
+  },
+  "SourceInventoryFingerprintSha256": "8e33f2a646777098c35bb7b3ef0de0eb37a7161c9d6a0b2c4167344a7a877c92",
+  "SourceDecodedSchemaVersion": 1,
+  "ContentFingerprintSha256": "22de8db62977775acdb16227d2b673521c01327453b56f504b646954133881e1",
+  "EntityIdentityFingerprintSha256": "8febf4a02781b21720f89bb0f6ea1d6b74439d8d9b4ee2ae4f086a0a61fefc14",
+  "EntityCount": 31899,
+  "RecordCounts": [
+    {
+      "Kind": "AnimalSpawn",
+      "Count": 157
+    },
+    {
+      "Kind": "ItemSpawn",
+      "Count": 3638
+    },
+    {
+      "Kind": "LandscapeTile",
+      "Count": 18
+    },
+    {
+      "Kind": "PlayerSpawn",
+      "Count": 19
+    },
+    {
+      "Kind": "StaticObject",
+      "Count": 26714
+    },
+    {
+      "Kind": "VehicleSpawn",
+      "Count": 111
+    },
+    {
+      "Kind": "ZombieSpawn",
+      "Count": 1242
+    }
+  ],
+  "Cells": [
+    {
+      "CellId": "cel_d0e1dace2c31208b9518827230d37e75",
+      "GridX": -2,
+      "GridZ": -2,
+      "RelativePath": "cells/limestone/-2_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 5120.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 6144.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 110,
+      "EntityFingerprintSha256": "66aeca98d3a0c41bb92ba16c58d598886b77ae2b843808fdfc4de9b4ef783a0d",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 7
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 2
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 100
+        }
+      ]
+    },
+    {
+      "CellId": "cel_629b5f51e41c79753d15fc16a9a74023",
+      "GridX": -2,
+      "GridZ": -1,
+      "RelativePath": "cells/limestone/-2_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 5120.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 6144.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 539,
+      "EntityFingerprintSha256": "b0eb51547cf54c88ca9bddeaf44e56e8d305a110839a3a38f78a1c08a1c1a421",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 11
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 50
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 453
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 2
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 22
+        }
+      ]
+    },
+    {
+      "CellId": "cel_cc59dc51bc1c3ee13c37f518ccb43148",
+      "GridX": -2,
+      "GridZ": 0,
+      "RelativePath": "cells/limestone/-2_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 5120.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 6144.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 191,
+      "EntityFingerprintSha256": "192ee5f63ba99e8305de902f44b6148a3662ae477cf52050dd49de5be8d5be82",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 4
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 11
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 174
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_dbe174f637a98caa51e118064faaa765",
+      "GridX": -2,
+      "GridZ": 1,
+      "RelativePath": "cells/limestone/-2_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -2048.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": -1024.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 5120.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 6144.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 2,
+      "EntityFingerprintSha256": "f26366ee646d265b66d57c3585f614674b3ea36ee04f5ae7d3b88746c67dd114",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_1802a73f92081b0cb88a3911d9248863",
+      "GridX": -1,
+      "GridZ": -2,
+      "RelativePath": "cells/limestone/-1_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 6144.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 7168.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 1397,
+      "EntityFingerprintSha256": "656e31a8dc064476a167eb877fd583edd68ffdc587c9344293a9c3bc4229bae3",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 164
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 5
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1131
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 6
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 90
+        }
+      ]
+    },
+    {
+      "CellId": "cel_6f27e84cb97068536099cae3fefe590c",
+      "GridX": -1,
+      "GridZ": -1,
+      "RelativePath": "cells/limestone/-1_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 6144.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 7168.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 5650,
+      "EntityFingerprintSha256": "5db1ab51dcfb4bbd0061b7299b38baeaf1cd04d2bdfaeb7bc1af8349101932eb",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 58
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 707
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "PlayerSpawn",
+          "Count": 12
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 4648
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 28
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 196
+        }
+      ]
+    },
+    {
+      "CellId": "cel_81c0a28d070a3b982c5c4650a55e3a6c",
+      "GridX": -1,
+      "GridZ": 0,
+      "RelativePath": "cells/limestone/-1_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 6144.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 7168.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 6900,
+      "EntityFingerprintSha256": "1c1e1b1df982e3eee031ce72bdde7623af05650350f57ec11408f2ea9322a4c9",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 52
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 749
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 5839
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 22
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 237
+        }
+      ]
+    },
+    {
+      "CellId": "cel_237671952776041102c6133f725fbb86",
+      "GridX": -1,
+      "GridZ": 1,
+      "RelativePath": "cells/limestone/-1_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": -1024.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 6144.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 7168.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 43,
+      "EntityFingerprintSha256": "7cc01214336534d7a3bf5581b4a846c985d198f1564a4d681d91b2c22497626c",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 42
+        }
+      ]
+    },
+    {
+      "CellId": "cel_7f4fd54a9e6f85e6d93dcc87eb62c766",
+      "GridX": 0,
+      "GridZ": -2,
+      "RelativePath": "cells/limestone/0_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 7168.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 8192.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 22,
+      "EntityFingerprintSha256": "c23c59ed2806e22e39c8a13ae85c309df0aeb440c0e15da92218ec49f45d21f5",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 21
+        }
+      ]
+    },
+    {
+      "CellId": "cel_dcf7d1207407651c9278935949d00adc",
+      "GridX": 0,
+      "GridZ": -1,
+      "RelativePath": "cells/limestone/0_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 7168.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 8192.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 6108,
+      "EntityFingerprintSha256": "ee0580d8dba6a124b590c9b78bba63d2e6ff15db0cb1ed72b565c29dcca3b505",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 669
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 5171
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 14
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 253
+        }
+      ]
+    },
+    {
+      "CellId": "cel_97b15f77cdcb3d906c742ae5c1e935f1",
+      "GridX": 0,
+      "GridZ": 0,
+      "RelativePath": "cells/limestone/0_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 7168.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 8192.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 9216,
+      "EntityFingerprintSha256": "3dbd6a4d3248f76fe567fb3880d28ec907dcdf9ab8d3e7ef9a35e2f66aa6491e",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 31
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 1125
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 7648
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 32
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 379
+        }
+      ]
+    },
+    {
+      "CellId": "cel_e6f610f47fa47f1f4bdc1f956a9b5d84",
+      "GridX": 0,
+      "GridZ": 1,
+      "RelativePath": "cells/limestone/0_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 0.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 7168.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 8192.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 5,
+      "EntityFingerprintSha256": "e37120ce8878e2409ae6076f9faa0624d61c5c3c054da90ba57d065fac6bd7cb",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "CellId": "cel_6136868d68ea287c4456360116138017",
+      "GridX": 1,
+      "GridZ": -2,
+      "RelativePath": "cells/limestone/1_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 8192.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 9216.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 2,
+      "EntityFingerprintSha256": "1a68b5d6e0cea8a82b67a3d8596a729546eb0b2384124fcb673fd904668215c3",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_5896a32c182bb1ed4b209228690c5a59",
+      "GridX": 1,
+      "GridZ": -1,
+      "RelativePath": "cells/limestone/1_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 8192.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 9216.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 508,
+      "EntityFingerprintSha256": "fae5fddb14ae58b96170e2715cb827caea6960da2e48ae50cb366f8496f06396",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "ItemSpawn",
+          "Count": 39
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 449
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 2
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 17
+        }
+      ]
+    },
+    {
+      "CellId": "cel_8b9894b9d46cbe338176016618f2edf5",
+      "GridX": 1,
+      "GridZ": 0,
+      "RelativePath": "cells/limestone/1_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 8192.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 9216.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 1200,
+      "EntityFingerprintSha256": "3007da056b30edfb4bd29a9a7a8d15618f9d4ee21e43a2dbaed4529e3d7b1b41",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "AnimalSpawn",
+          "Count": 1
+        },
+        {
+          "Kind": "ItemSpawn",
+          "Count": 117
+        },
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        },
+        {
+          "Kind": "StaticObject",
+          "Count": 1029
+        },
+        {
+          "Kind": "VehicleSpawn",
+          "Count": 4
+        },
+        {
+          "Kind": "ZombieSpawn",
+          "Count": 48
+        }
+      ]
+    },
+    {
+      "CellId": "cel_5e4a924aad4611f9f3d0c58a4f344011",
+      "GridX": 1,
+      "GridZ": 1,
+      "RelativePath": "cells/limestone/1_1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 1024.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 2048.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 8192.0,
+          "Y": -1024.0,
+          "Z": 1024.0
+        },
+        "Max": {
+          "X": 9216.0,
+          "Y": 1024.0,
+          "Z": 2048.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "49b05a9b6578d8839ae10fb8734c0be1942e82729374f53a6d5cd0bc9c391df6",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_52acb9c5a1a1604fafa519e606ec8986",
+      "GridX": 2,
+      "GridZ": -2,
+      "RelativePath": "cells/limestone/2_-2.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 9216.0,
+          "Y": -1024.0,
+          "Z": -2048.0
+        },
+        "Max": {
+          "X": 10240.0,
+          "Y": 1024.0,
+          "Z": -1024.0
+        }
+      },
+      "EntityCount": 3,
+      "EntityFingerprintSha256": "77ad5fb2bc71e426702c30d5b7820fd832d806c387df32659dfe58379eb62d58",
+      "HasLandscapeRecord": false,
+      "LandscapeHasHeightmap": false,
+      "LandscapeHasSplatmap": false,
+      "LandscapeHasHoles": false,
+      "RecordCounts": [
+        {
+          "Kind": "StaticObject",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "CellId": "cel_a6aef7fe175e09c62ce618ba1f79c4c6",
+      "GridX": 2,
+      "GridZ": -1,
+      "RelativePath": "cells/limestone/2_-1.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 9216.0,
+          "Y": -1024.0,
+          "Z": -1024.0
+        },
+        "Max": {
+          "X": 10240.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "86e81080c340dacdfca4b3bc15ae97dea1f20aa3fdbd4aea2bf72803352031c2",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "CellId": "cel_079ba0644da2ee028deb45d7114d050c",
+      "GridX": 2,
+      "GridZ": 0,
+      "RelativePath": "cells/limestone/2_0.world-cell.json",
+      "LocalBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 2048.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 3072.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "WorldBounds": {
+        "HasValue": true,
+        "Min": {
+          "X": 9216.0,
+          "Y": -1024.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 10240.0,
+          "Y": 1024.0,
+          "Z": 1024.0
+        }
+      },
+      "EntityCount": 1,
+      "EntityFingerprintSha256": "b93eb8153750a62c503c4b97167b15b1f34b8d05dcf30ab133d86e87843e778f",
+      "HasLandscapeRecord": true,
+      "LandscapeHasHeightmap": true,
+      "LandscapeHasSplatmap": true,
+      "LandscapeHasHoles": true,
+      "RecordCounts": [
+        {
+          "Kind": "LandscapeTile",
+          "Count": 1
+        }
+      ]
+    }
+  ]
+}

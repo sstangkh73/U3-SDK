@@ -25,6 +25,11 @@ namespace SDG.Unturned
 			charactersComponent.customStart();
 			uiComponent.customStart();
 
+			if (WorldTravelManager.TryResumePendingTravel())
+			{
+				return;
+			}
+
 #if UNITY_EDITOR
 			// Prevent auto loading a second time after leaving in-game back to main menu.
 			if (!didAlreadyAutoLoad)
