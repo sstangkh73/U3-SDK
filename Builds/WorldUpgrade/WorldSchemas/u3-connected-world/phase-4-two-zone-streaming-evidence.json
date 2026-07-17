@@ -1,0 +1,188 @@
+{
+  "SchemaVersion": 1,
+  "WorldId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+  "ManifestContentFingerprintSha256": "0054f599da936c811f713fa4a5ec08715aec659261550a7eedac09ac225e0160",
+  "IsValid": true,
+  "ErrorCount": 0,
+  "WarningCount": 2,
+  "ZoneCount": 2,
+  "SourceZoneKey": "california-2",
+  "DestinationZoneKey": "limestone",
+  "Corridor": {
+    "SourceZoneKey": "california-2",
+    "DestinationZoneKey": "limestone",
+    "SourceBoundaryX": 4096.0,
+    "DestinationBoundaryX": 5120.0,
+    "LandingOverlap": 256.0,
+    "StartX": 3840.0,
+    "EndX": 5376.0,
+    "CenterZ": 512.0,
+    "Width": 256.0,
+    "Length": 1536.0
+  },
+  "PreloadRadius": 1536.0,
+  "UnloadRadius": 2048.0,
+  "SimulationStepMeters": 128.0,
+  "RoundTripCount": 20,
+  "PositionSampleCount": 820,
+  "ZoneResolutionChangeCount": 40,
+  "CorridorEntryCount": 40,
+  "SceneHandleChangeCount": 0,
+  "TeleportCount": 0,
+  "PreloadMissCount": 0,
+  "LogicalGroundCoverageMissCount": 0,
+  "PhysicalCollisionSampleCount": 41,
+  "PhysicalCollisionMissCount": 0,
+  "SourceTerrainCreated": true,
+  "DestinationTerrainCreated": true,
+  "TransitionBridgeCreated": true,
+  "PeakActiveCellCount": 14,
+  "PeakActiveEntityCount": 33503,
+  "PeakEstimatedResidentBytes": 27096762,
+  "ActivationCount": 314,
+  "DeactivationCount": 314,
+  "PeakCaliforniaStaticObjectRecords": 19529,
+  "PeakLimestoneStaticObjectRecords": 24080,
+  "MaximumCoordinateRoundTripError": 0.0,
+  "FinalActiveCellCount": 0,
+  "FinalActiveEntityCount": 0,
+  "FinalEstimatedResidentBytes": 0,
+  "LogicalMemoryPlateau": true,
+  "NavigationDataAvailable": false,
+  "Loops": [
+    {
+      "Loop": 1,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 2,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 3,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 4,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 5,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 6,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 7,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 8,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 9,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 10,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 11,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 12,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 13,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 14,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 15,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 16,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 17,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 18,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 19,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    },
+    {
+      "Loop": 20,
+      "PeakActiveCellCount": 14,
+      "PeakActiveEntityCount": 33503,
+      "PeakEstimatedResidentBytes": 27096762
+    }
+  ],
+  "Issues": [
+    {
+      "Severity": "Warning",
+      "Code": "NavigationStreamingDeferred",
+      "ScopeId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+      "Message": "Navigation records are not yet present in the world schema; Phase 4 validates terrain collision and cell-owned object records only."
+    },
+    {
+      "Severity": "Warning",
+      "Code": "PlayerTraversalNotExecuted",
+      "ScopeId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+      "Message": "Boundary traversal is a deterministic probe simulation in one scene, not a manual player/vehicle gameplay session."
+    }
+  ]
+}
