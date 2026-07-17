@@ -195,7 +195,7 @@ final recovered state kinds หลังเพิ่ม validation states 3 ร�
 | global survival/economy policy | ผ่าน config + validation | gameplay systems ยังไม่ consume policy |
 | nav border links | ผ่าน logical contract | runtime-baked 0; AI gate ยังไม่ผ่าน |
 | full regression | ผ่าน | 1,354/1,354 |
-| code/report บน GitHub | รอ metadata commit | อัปเดตหลัง push |
+| code/report บน GitHub | ผ่าน | implementation/report commit `5efe724`, Draft PR #1 |
 
 ## 11. ข้อจำกัด
 

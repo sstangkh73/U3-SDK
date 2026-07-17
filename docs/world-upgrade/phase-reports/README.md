@@ -9,7 +9,7 @@
 | 2 | [Deterministic world schema และ stable identity](phase-2-world-schema-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว — `03cdfee` |
 | 3 | [Single-zone runtime parity](phase-3-single-zone-runtime-parity-2026-07-18.th.md) | ผ่านและเผยแพร่แล้ว — `cb745fa` |
 | 4 | [Two-zone streaming prototype](phase-4-two-zone-streaming-prototype-2026-07-18.th.md) | ผ่าน automated prototype gate และเผยแพร่แล้ว — `190e15f` |
-| 5 | [Population, economy และ persistence foundation](phase-5-population-persistence-foundation-2026-07-18.th.md) | ผ่าน automated data-foundation gate; รอ metadata หลังเผยแพร่ |
+| 5 | [Population, economy และ persistence foundation](phase-5-population-persistence-foundation-2026-07-18.th.md) | ผ่าน automated data-foundation gate และเผยแพร่แล้ว — `5efe724` |
 | 6 | Environment, presentation และการขยายแมพ | ยังไม่เริ่ม |
 | 7 | Multiplayer และ production hardening | ยังไม่เริ่ม |
 
