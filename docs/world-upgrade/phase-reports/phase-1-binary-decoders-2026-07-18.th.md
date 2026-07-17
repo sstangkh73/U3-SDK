@@ -2,8 +2,10 @@
 
 **วันที่ทดสอบ:** 18 กรกฎาคม 2026  
 **Branch:** `codex/world-travel-mvp`  
-**ผล gate:** ผ่านการตรวจในเครื่อง  
+**ผล gate:** ผ่านและเผยแพร่บน GitHub แล้ว  
 **ฐานจากระยะก่อน:** Phase 0 baseline commit `41bb305`  
+**Phase 1 commit:** [`b9c5c19`](https://github.com/sstangkh73/U3-SDK/commit/b9c5c19)  
+**Draft PR:** [sstangkh73/U3-SDK#1](https://github.com/sstangkh73/U3-SDK/pull/1)  
 
 ## 1. วัตถุประสงค์
 
@@ -215,9 +217,8 @@ Custom `RawMapBinaryFormatException` เดิมสืบทอดจาก `In
 | Integration decode แมพจริง | ผ่าน 7/7 |
 | ไม่มี validation errors | ผ่าน — 0 errors |
 | Warning และข้อจำกัดถูกบันทึก | ผ่าน |
-| Code/report อยู่บน GitHub | รอเติม commit metadata หลัง push |
+| Code/report อยู่บน GitHub | ผ่าน — commit `b9c5c19`, Draft PR #1 |
 
 ## 9. ข้อสรุป
 
-Phase 1 ผ่าน gate ในเครื่องแล้ว โครงการมี decoder ที่หยุดเมื่อข้อมูลเสียและมีหลักฐานจาก source map จริงครบ 7 แห่ง ข้อมูล spawn, landscape, objects, roads และ hierarchy พร้อมใช้เป็น input ของ Phase 2 ซึ่งจะสร้าง deterministic records, stable zone/cell/entity IDs และ migration-aware world schema
-
+Phase 1 ผ่าน gate และเผยแพร่บน GitHub แล้ว โครงการมี decoder ที่หยุดเมื่อข้อมูลเสียและมีหลักฐานจาก source map จริงครบ 7 แห่ง ข้อมูล spawn, landscape, objects, roads และ hierarchy พร้อมใช้เป็น input ของ Phase 2 ซึ่งจะสร้าง deterministic records, stable zone/cell/entity IDs และ migration-aware world schema
