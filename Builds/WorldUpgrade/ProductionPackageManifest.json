@@ -1,0 +1,49 @@
+{
+  "SchemaVersion": 1,
+  "WorldId": "wld_7ef79abf4110d9747c72eb3eac927f56",
+  "ServerProtocolVersion": 1,
+  "ManifestFingerprintSha256": "163c8c3f24f3cc445ba2b509538cf5e48e142e90316bb7944581621a7180b5f5",
+  "AllArtifactsPresent": true,
+  "Artifacts": [
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSchemas/u3-connected-world/world-manifest.json",
+      "SizeInBytes": 2805768,
+      "ContentSha256": "9b3e8279216634e0e756100c9cbd54b078de543014c254388ac23bab3a91c904"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSchemas/u3-connected-world/generation-evidence.json",
+      "SizeInBytes": 64263,
+      "ContentSha256": "5b4a4e27d2e30b0783d13a3b6ca0ab8b533b916375dcce06ab72f6ddd7d54476"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSchemas/u3-connected-world/phase-3-single-zone-runtime-evidence.json",
+      "SizeInBytes": 3509,
+      "ContentSha256": "e84b7c6061d220617a9e442bb48f08183c104e7f0f4be5ec3a60f07295701089"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSchemas/u3-connected-world/phase-4-two-zone-streaming-evidence.json",
+      "SizeInBytes": 5308,
+      "ContentSha256": "82b1c270425d8fe6d2c8823667202954cea88d2c223717676dda961c64a64592"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSchemas/u3-connected-world/phase-5-population-persistence-evidence.json",
+      "SizeInBytes": 2709,
+      "ContentSha256": "c7626cdc69bb75e8ee5dbaededb8d6aa97cf668e707804cdae5c398dff2ce8a2"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSchemas/u3-connected-world/phase-6-environment-expansion-evidence.json",
+      "SizeInBytes": 7026,
+      "ContentSha256": "cc30ac0325a1d4d207507a09dde2b6a88e05f64f286dbf04ac9e5ba6fd21830d"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/WorldSimulationPolicy.json",
+      "SizeInBytes": 495,
+      "ContentSha256": "f5066c7a56f3930a1af59f06175579ffd253ee25d42a4cf98eda9f454b01807c"
+    },
+    {
+      "RelativePath": "Builds/WorldUpgrade/EnvironmentProfiles.json",
+      "SizeInBytes": 46330,
+      "ContentSha256": "2ab2a187654924fcdb99cd5abf86c4b5bd30d091b2deb5f2b92b2c134773754d"
+    }
+  ]
+}
