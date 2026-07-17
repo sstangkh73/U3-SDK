@@ -252,7 +252,7 @@ duration: 0.9056383 seconds
 | update migration | ยังไม่ผ่าน | rejection contract เท่านั้น |
 | license review | ยังไม่ผ่าน | ต้อง human/legal approval |
 | full regression | ผ่าน | 1,364/1,364 |
-| code/report บน GitHub | รอ commit | จะอัปเดต hash หลัง publish |
+| code/report บน GitHub | ผ่าน | implementation/report commit `0a8cf76`, Draft PR #1 |
 
 ## 13. ข้อจำกัด
 
